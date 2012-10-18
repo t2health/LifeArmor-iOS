@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+    <![CDATA[
+                <!DOCTYPE html> 
+<html lang="en"> 
+	<body>
+  		<div data-role="page" class="add-footer" id="all_tools" data-theme="z" class="add-footer">
+  			<div data-role="header">
+  				<img src="../images/foursquare_tools.png"/>
+    			<h1>All Tools</h1>
+  			</div>
+  			<div data-role="content">
+				<div class="tool-list"></div>
+  			</div>
+  		</div>
+  	</body>
+	]]>
+
+</content>

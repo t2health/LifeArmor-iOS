@@ -1,0 +1,54 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+	<head> 
+		<title>LifeArmor</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+        
+        <!-- ******SWITCH PHONEGAP FILE DEPENDING ON PLATFORM BEFORE BUILDING****** -->    
+        <!--<script type="text/javascript" src="phonegap.js"></script> -->
+        <script type="text/javascript" src="phonegap_mac.js"></script>
+		<script>
+            function onBodyLoad()
+            {		
+                document.addEventListener("deviceready",onDeviceReady,false);
+            }
+        </script>
+        <link type="text/css" rel="stylesheet" href="jquery.mobile/jquery.mobile.css"/>
+		<!--<link type="text/css" rel="stylesheet" href="css/jqm.simpledialog.css"/>-->
+		<link type="text/css" rel="stylesheet" href="jquery.mobile.custom.z.css"/>
+		<link type="text/css" rel="stylesheet" href="css/lifearmor.css"/>	
+			
+		<script type="text/javascript" src="jquery/jquery.js"></script>
+		<script type="text/javascript" src="js/lifearmor_init.js"></script>
+        <script type="text/javascript" src="flurry/flurry.js"></script>
+        <script type="text/javascript" src="js/lifearmor.js"></script>
+		<script type="text/javascript" src="jquery.mobile/jquery.mobile.js"></script>
+       
+		<script type="text/javascript" src="js/pgVideo.js"></script>
+		
+	</head> 
+	<body onload="onBodyLoad()">
+        <div data-role="page" class="add-footer" id="main" data-theme="z">
+			<div id="header" data-role="header">
+				<img src="images/lifearmor.png"/>
+				<h1>LifeArmor</h1>
+			</div>
+			<div data-role="content" >
+				<div class="topic-list">	</div>
+			</div>
+	    </div>
+        
+        <div data-role="dialog" id="toolListPage" data-theme="z">
+			<div id="header" data-role="header">
+				<h1>Tools</h1>
+			</div>
+			<div data-role="content" >
+                <div class="tool-list">	</div>
+
+                <a data-role="button" href="#" data-rel="back">Close</a>
+			</div>
+	    </div>
+	</body>
+</html>

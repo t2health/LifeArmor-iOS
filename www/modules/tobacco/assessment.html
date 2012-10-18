@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+	<div data-role="page" class="assessment add-footer"
+		id="tobacco-assessment" data-theme="z">
+		<script type="text/javascript" src="assessment.js"></script>
+		<script type="text/javascript" src="../validation.js"></script>
+		<div data-role="header">
+			<img src="module.png" />
+			<h1>Tobacco : Assessment</h1>
+		</div>
+		<div data-role="content">
+			<div data-role="content">
+				<form id="tobacco-assess-form">
+					<div data-role="fieldcontain" id=tobacco1_fieldcontain>
+						<fieldset data-role="controlgroup" class="likert1-5_alcohol">
+							<legend>1. How soon after you wake up do you smoke your
+								first cigarette?</legend>
+							<input type="radio" name="tobacco1" id="tobacco11" value="0" /><label
+								for="tobacco11">After 60 minutes</label> <input type="radio"
+								name="tobacco1" id="tobacco12" value="1" /><label
+								for="tobacco12">31-60 minutes</label> <input type="radio"
+								name="tobacco1" id="tobacco13" value="2" /><label
+								for="tobacco13">6-30 minutes</label> <input type="radio"
+								name="tobacco1" id="tobacco14" value="3" /><label
+								for="tobacco14">Within 5 minutes</label>
+
+						</fieldset>
+					</div>
+
+					<div data-role="fieldcontain" id=tobacco2_fieldcontain>
+						<fieldset data-role="controlgroup" data-type="horizontal"
+							class="yes_no">
+							<legend>2. Do you find it difficult to refrain from
+								smoking in places where it is forbidden?</legend>
+							<input type="radio" name="tobacco2" id="tobacco21" value="0" /><label
+								for="tobacco21">No</label> <input type="radio" name="tobacco2"
+								id="tobacco22" value="1" /><label for="tobacco22">Yes</label>
+						</fieldset>
+					</div>
+
+					<div data-role="fieldcontain" id=tobacco3_fieldcontain>
+						<fieldset data-role="controlgroup" class="likert1-5_alcohol">
+							<legend>3. Which cigarette would you hate most to give
+								up?</legend>
+							<input type="radio" name="tobacco3" id="tobacco31" value="1" /><label
+								for="tobacco31">The first in the morning</label> <input
+								type="radio" name="tobacco3" id="tobacco32" value="0" /><label
+								for="tobacco32">Any other</label>
+
+						</fieldset>
+					</div>
+
+					<div data-role="fieldcontain" id=tobacco4_fieldcontain>
+						<fieldset data-role="controlgroup" class="likert1-5_alcohol">
+							<legend>4. How many cigarettes per day do you smoke?</legend>
+							<input type="radio" name="tobacco4" id="tobacco41" value="0" /><label
+								for="tobacco41">10 or less</label> <input type="radio"
+								name="tobacco4" id="tobacco42" value="1" /><label
+								for="tobacco42">11-20</label> <input type="radio"
+								name="tobacco4" id="tobacco43" value="2" /><label
+								for="tobacco43">21-30</label> <input type="radio"
+								name="tobacco4" id="tobacco44" value="3" /><label
+								for="tobacco44">31 or more</label>
+						</fieldset>
+					</div>
+
+					<div data-role="fieldcontain" id=tobacco5_fieldcontain>
+						<fieldset data-role="controlgroup" data-type="horizontal"
+							class="yes_no">
+							<legend>5. Do you smoke more frequently during the first
+								hours after awakening than during the rest of the day?</legend>
+							<input type="radio" name="tobacco5" id="tobacco51" value="0" /><label
+								for="tobacco51">No</label> <input type="radio" name="tobacco5"
+								id="tobacco52" value="1" /><label for="tobacco52">Yes</label>
+						</fieldset>
+					</div>
+
+					<div data-role="fieldcontain" id=tobacco6_fieldcontain>
+						<fieldset data-role="controlgroup" data-type="horizontal"
+							class="yes_no">
+							<legend>6. Do you smoke even if you are so ill that you
+								are in bed most of the day?</legend>
+							<input type="radio" name="tobacco6" id="tobacco61" value="0" /><label
+								for="tobacco61">No</label> <input type="radio" name="tobacco6"
+								id="tobacco62" value="1" /><label for="tobacco62">Yes</label>
+						</fieldset>
+					</div>
+
+					<button id="tobacco-assessment-submit" data-role="button"
+						data-theme="z">Submit</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>

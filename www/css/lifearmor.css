@@ -1,0 +1,760 @@
+/*//////////////////////////////////////////////////////////////////////////////*/
+/*// GLOBAL SETTINGS, CHANGES TO DEFAULTS ////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////////////////*/
+
+/*
+  * this ensures we don't have any horizontal overflow in the app
+  * it was necessary to fix the ul on the main page creating a 2px overflow that was scrollable.
+*/
+.ui-icon-mail_icon {
+	background-image: url("../images/mail_icon.png");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+	.ui-icon-myapp-email {
+		background-image: url("../images/mail_icon_36.png");
+		background-size: 18px 18px;
+	}
+}
+
+.star {
+	display: block;
+	background: url("../images/star_unselected.png");
+	height: 40px;
+	width: 46px;
+}
+
+.star.favorited {
+	height: 40px;
+	width: 46px;
+	background-image: url("../images/star_selected.png");
+}
+
+ui-footer {
+	padding: 0px !important;
+}
+
+/* make ems bold, not ital */
+em {
+	font-style: normal;
+	font-weight: bold;
+}
+
+/* super-em, to super-emphasize */
+em.super {
+	color: #96fc12;
+	text-shadow: 0px 0px 6px #fff;
+}
+
+speak {
+	display: none;
+}
+
+/* for error messages */
+.error {
+	margin: 1em;
+	border: 3px solid red;
+	padding: 1em;
+	color: red;
+	font-weight: bold;
+	border-radius: 15px;
+	text-align: center;
+}
+
+/* for non-error messages */
+.message {
+	margin: 1em;
+	border: 3px solid #96fc12;
+	padding: 1em;
+	color: #96fc12;
+	font-weight: bold;
+	border-radius: 15px;
+	text-align: center;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////*/
+/*// NAV BAR //////////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////////////////*/
+
+/*sticky footer with a nav bar  */
+.fixed-footer {
+	left: 0;
+	margin-top: 15px;
+}
+
+.navbar {
+	z-index: 100;
+	height: 40px;
+}
+
+.navbar  a {
+	display: inline-block;
+	width: 57px;
+	height: 40px;
+}
+
+.navbar  a.link-home {
+	/*background-image: url("../images/nav_home.png");*/
+	width: auto;
+	/*margin: 0; */
+	display: inline-block;
+	font-size: 13px;
+	height: auto !important;
+	margin-left: 2px;
+	margin-top: 2px;
+}
+
+.navbar  a.link-tools {
+	background-image: url("../images/nav_tools.png");
+}
+
+.navbar  a.link-four {
+	background-image: url("../images/nav_four.png");
+}
+
+.navbar  a.link-tools:hover {
+	background-position: -58px 0;
+}
+
+/* popup styling  */
+.popup-text {
+	text-align: left;
+	padding: 12px;
+}
+
+/* instructive text, used on many pages */
+.instruct {
+	color: #96fc12;
+	text-shadow: #000000 0px 0px 2px;
+	margin-bottom: 8px;
+	text-align: center;
+}
+
+div[data-role="content"] h1 {
+	text-align: center;
+	color: #96fc12;
+	margin-top: 0;
+	padding-bottom: .4em;
+	border-bottom: 1px solid #5a5858;
+	margin-bottom: .4em;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////*/
+/*// TOPICS ////////////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////////////////*/
+/* this vertically centers text in each item in the ul#subject list.
+	if we want to generalize this to all lists, we can be less selective on the ul#subject part.
+*/
+ul#subject .ui-btn-text {
+	display: table;
+	height: 80px;
+	width: 100%;
+}
+
+ul#subject .ui-btn-text  a {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+ul#subject .ui-li-heading {
+	white-space: normal;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+ul#subject a {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////*/
+/*// Tools /////////////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////////////////*/
+ul#subjectTools .ui-btn-text {
+	font-size: 14px;
+	width: 100%;
+}
+
+ul#subjectTools .ui-btn-text  a {
+	vertical-align: middle;
+}
+
+ul#subjectTools .ui-listview {
+	white-space: normal;
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+}
+
+ul#subjectTools .ui-li-heading {
+	white-space: normal;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////*/
+/*// FOURSQUARE ////////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////////////////*/
+div.foursquare {
+	text-align: center;
+}
+
+div.foursquare div.ui-block-a {
+	-webkit-box-sizing: border-box;
+	padding-left: 30px;
+	text-align: center;
+}
+
+div.foursquare div.ui-block-b {
+	-webkit-box-sizing: border-box;
+	padding-right: 30px;
+	text-align: center;
+}
+
+div.foursquare p.instruct {
+	margin-top: 0;
+}
+
+div.foursquare a {
+	text-decoration: none;
+	font-weight: normal !important;
+}
+
+.favorite {
+	height: 40px;
+	width: 46px;
+	background-image: url("../images/star_selected.png");
+}
+
+.unfavorite {
+	height: 40px;
+	width: 46px;
+	background-image: url("../images/star_unselected.png");
+}
+
+/*//////////////////////////////////////////////////////////////////////////////*/
+/*// VIDEOS ////// /////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////////////////*/
+.video-thumb {
+	margin: 11px 0px 0px 3px;
+	border: 1px inset #555 !important;
+	/* following gives a fake "loading" look. (but maybe not on device!) */
+	min-width: 35px;
+	min-height: 35px;
+	background-image: url('../../jquery.mobile/images/ajax-loader.png');
+}
+
+#video-list h3 {
+	margin-top: 0px;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////*/
+/* Theme overrides.  I chose to put these here to maximize theme reuse.  These items are custom to the app, not the theme.  -ca  */
+
+/* small icon on header bar */
+div[data-role="header"] img {
+	height: 40px;
+	position: absolute;
+}
+
+/* favorite button on foursquare needs to be top right. */
+#favorite {
+	position: absolute;
+	height: 40px;
+	top: 0;
+	right: 4px;
+}
+
+/* allows text to wrap on buttons, lists */
+.ui-btn-text {
+	white-space: normal;
+}
+
+.ui-collapsible-heading a {
+	text-decoration: none;
+}
+
+.ui-btn-text {
+	color: #96fc12;
+	text-shadow: #000000 0px 0px 1px;
+	font-weight: normal;
+}
+
+/* hack to fix jqm bug that accidentally sets list dividers to .ui-bar-b.  side effect is that hover is cancelled (which we want) */
+li[data-role="list-divider"] {
+	border: 1px solid #2A2A2A;
+	background: #555555;
+	color: #ffffff;
+	font-weight: bold;
+	text-shadow: 0 -1px 1px #000000;
+}
+
+/* Total hack... to remove the ugly border radius from the icons.  they look terrible on android. -ca */
+.ui-icon {
+	-webkit-box-shadow: black 0px 0px 3px;
+}
+/*Now, while that was easy for most icons, the collapsible icons are super-divvy.  We need to really massage these to get rid of the crud. */
+.ui-collapsible-heading span .ui-btn,.ui-collapsible-heading .ui-btn-hover-d,.ui-collapsible-heading .ui-btn-inner
+	{
+	background-color: transparent;
+	background-image: none;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	border-radius: 0;
+	border: 0;
+}
+/* this deactivates the drop shadow on the collapsible icons until we get the spacing worked out. */
+.ui-collapsible-heading .ui-icon {
+	border-radius: 0;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+}
+/* even more.  get rid of yucky highlighting on "focus" which is used in validation */
+.ui-focus {
+	box-shadow: none;
+	-webkit-box-shadow: none;
+}
+
+.ui-header .ui-title {
+	margin-left: 42px;
+	margin-right: 42px;
+}
+
+/*.ui-header {
+	display:inline;
+	width:90%;
+}*/
+
+/*//////////////////////////////////////////////////////////////////////////////*/
+/*// ASSESSMENTS ///////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////////////////*/
+
+/* Slider */
+a.ui-slider-handle {
+	position: absolute;
+	z-index: 10;
+	width: 24px;
+	height: 24px;
+	margin-top: -15px;
+	margin-left: -15px;
+}
+
+/*=== truefalse section ===*/
+.truefalse {
+	padding-left: 9px; /* LC width */
+	padding-right: 9px; /* RC width */
+}
+
+.truefalse.ui-controlgroup-label {
+	width: 100%;
+}
+/* jqm tries to put labels next to controls, so we need to override their settings (and center). */
+.truefalse .ui-controlgroup-controls {
+	width: 100%;
+	text-align: center;
+}
+
+/* Validation classes */
+.truefalse .error {
+	color: red;
+	padding-left: 10px;
+	font-weight: bold;
+}
+
+span.Rlegend {
+	float: right;
+	width: 70px;
+}
+
+span.Llegend {
+	float: left;
+	width: 70px;
+}
+
+/* YES NO ANSWERS */
+/* center answers  */
+.yes_no .ui-controlgroup-controls {
+	text-align: center;
+}
+/* jqm tries to put labels next to controls, so we need to override their settings. */
+.yes_no .ui-controlgroup-label {
+	width: 100%;
+}
+
+/* jqm tries to put labels next to controls, so we need to override their settings. */
+.yes_no .ui-controlgroup-controls {
+	width: 100%;
+}
+/* set individual button widths and text alignment */
+.yes_no label.ui-btn {
+	width: 40%;
+	text-align: center;
+}
+/* reduce padding on 1-10s, so they fit on one line.  works like a charm. */
+.yes_no.ui-btn-inner {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/*=== likert1-5_alcohol section ===*/
+/* make the controls take up most of the space and center each element */
+.likert1-5 .ui-radio label {
+	text-align: center;
+}
+
+.ui-checkbox-on .ui-icon,.ui-radio-on .ui-icon {
+	background-color: #96FC12;
+}
+
+.likert1-5_alcohol .ui-controlgroup-label {
+	width: 100%;
+}
+
+.likert1-5_alcohol .ui-controlgroup-controls {
+	width: 100%;
+	text-align: center;
+}
+
+.likert1-5_alcohol .error {
+	color: red;
+	padding-left: 10px;
+	font-weight: bold;
+}
+
+.likert-scale-legend {
+	margin-top: 4px;
+}
+
+.likert1-5_alcohol .likert-scale-legend div {
+	display: inline-block;
+	width: 19%;
+	text-align: center;
+}
+
+/* center answers  */
+.likert1-5 .ui-controlgroup-controls {
+	text-align: center;
+}
+/* jqm tries to put labels next to controls, so we need to override their settings. */
+.likert1-5 .ui-controlgroup-label {
+	width: 100%;
+}
+
+/* jqm tries to put labels next to controls, so we need to override their settings. */
+.likert1-5 .ui-controlgroup-controls {
+	width: 100%;
+}
+/* set individual button widths and text alignment */
+.likert1-5 label.ui-btn {
+	width: 16%;
+	text-align: center;
+}
+/* reduce padding on 1-10s, so they fit on one line.  works like a charm. */
+.likert1-5 .ui-btn-inner {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/*=== likert1-6 section ===*/
+/* make the controls take up most of the space and center each element */
+.likert1-6 .ui-radio label {
+	text-align: center;
+}
+/* set individual button widths and text alignment */
+.likert1-6 label.ui-btn {
+	width: 15%;
+	text-align: center;
+}
+
+.likert1-6 .ui-btn-inner {
+	padding-left: 11px;
+	padding-right: 11px;
+}
+/* jqm tries to put labels next to controls, so we need to override their settings. */
+.likert1-6 .ui-controlgroup-label {
+	width: 100%;
+}
+/* jqm tries to put labels next to controls, so we need to override their settings (and center). */
+.likert1-6 .ui-controlgroup-controls {
+	width: 100%;
+	text-align: center;
+}
+/* Validation classes */
+.likert1-6 .error {
+	color: red;
+	padding-left: 10px;
+	font-weight: bold;
+}
+/*legend under likert 5*/
+.likert1-6 .likert-scale-legend div {
+	display: inline-block;
+	text-align: center;
+}
+
+/*=== likert1-8 section ===*/
+/* make the controls take up most of the space and center each element */
+.likert1-8 .ui-radio label {
+	text-align: center;
+}
+
+.likert1-8 .ui-btn-inner {
+	padding-left: 7px;
+	padding-right: 7px;
+}
+
+.likert1-8 label.ui-btn {
+	width: 10%;
+	text-align: center;
+	padding-right: 2px;
+}
+
+.likert1-8 .ui-controlgroup-label {
+	width: 100%;
+}
+
+.likert1-8 .ui-controlgroup-controls {
+	width: 100%;
+	text-align: center;
+}
+
+.likert1-8 .error {
+	color: red;
+	padding-left: 10px;
+	font-weight: bold;
+}
+
+/*=== likert1-10 section ===*/
+/* make the controls take up most of the space and center each element */
+/*.likert1-10 .ui-radio label {
+
+	text-align: center;
+}
+.likert1-10 .ui-btn-inner {
+	padding-left: 9px;
+	padding-right: 9px;
+}
+
+.likert1-10 label.ui-btn{
+    width:10%;
+    text-align: center;
+}
+
+.likert1-10 .ui-controlgroup-label {
+	width: 100%;
+}
+
+.likert1-10 .ui-controlgroup-controls {
+	width: 100%;
+	text-align: center;
+}
+
+.likert1-10 .error {
+	color: red;
+	padding-left: 10px;
+	font-weight: bold;
+}*/
+.likert1-10 .ui-controlgroup-label {
+	width: 100%;
+}
+
+/* center answers  */
+.likert1-10 .ui-controlgroup-controls {
+	text-align: center;
+}
+/* jqm tries to put labels next to controls, so we need to override their settings. */
+.likert1-10 .ui-controlgroup-label {
+	width: 100%;
+}
+
+/* jqm tries to put labels next to controls, so we need to override their settings. */
+.likert1-10 .ui-controlgroup-controls {
+	width: 100%;
+}
+/* set individual button widths and text alignment */
+.likert1-10 label.ui-btn {
+	width: 9.5%;
+	text-align: center;
+}
+/* reduce padding on 1-10s, so they fit on one line.  works like a charm. */
+.likert1-10 .ui-btn-inner {
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+/* This is for radio buttons with text */
+/* make the controls take up most of the space and center each element */
+#alcohol_drugs-assessment div[data-role="content"] {
+	padding: 10px;
+}
+
+.likert-scale-legend {
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	padding: 1px 10px 0px 12px;
+	font-size: 75%;
+}
+
+/* trying to collapse the space between form elements.  */
+.ui-field-contain {
+	padding: 0.2em 0;
+}
+
+fieldset.ui-controlgroup {
+	padding: 0;
+	margin: .5em 0 1em;
+}
+
+.ui-controlgroup-horizontal .ui-checkbox,.ui-controlgroup-horizontal .ui-radio
+	{
+	display: inline;
+	float: none !important;
+	margin: 0 -5px 0 0;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////*/
+/*// TOOLS & INTERACTIVES ///////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////////////////*/
+/* Some tool defaults */
+.interactive-instruct {
+	margin: 2em 0;
+	font-size: 150%;
+	/* color: #96fc12; */
+	margin-bottom: 8px;
+	/* text-align: center;	 */
+}
+
+.interactive-message {
+	font-size: 160%; /* Was font-size: x-large */
+	text-align: left;
+	min-height: 7em;
+}
+
+.clock {
+	text-align: center;
+	font-size: 4em;
+	font-weight: bold;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////*/
+/*// DIALOG  //////////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////////////////*/
+.fixed-header.dialog-header {
+	/* I hate hacks as much as the next guy, but this one works and it's quick.  We need to disable
+		the default css applied everywhere else to headers.  */
+	position: relative !important;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////*/
+/*// PAGE SPECIFIC ////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////////////////*/
+#main .fixed-footer { /* position: relative; */
+	
+}
+
+#distract-page .interactive-message {
+	height: 10em;
+}
+
+#perspective-change-page .interactive-message {
+	height: 7em;
+}
+
+#inspiring-quotes-page .interactive-message {
+	font-size: 150%;
+	height: 12em;
+}
+
+#inspiring-quotes-page .quoter {
+	font-size: 60%;
+	text-align: right;
+	margin-top: 1em;
+}
+
+#help_sleep-page .interactive-message {
+	height: 11em;
+}
+
+#iso-plan-page .interactive-instruct {
+	font-size: 120%;
+}
+
+#iso-plan-page .interactive-message {
+	height: 12em;
+}
+
+#perspective-change-page .interactive-instruct {
+	font-size: 100%;
+}
+
+#pleasant-events-page .interactive-instruct {
+	font-size: 100%;
+}
+
+#time-out-page .interactive-instruct {
+	margin: .5em 0;
+	font-size: 115%; /* Was font-size: large */
+}
+
+#time-out-page #timer-group {
+	text-align: center;
+}
+
+#time-out-page #timer-group .ui-btn-inner {
+	padding-right: 13px;
+	padding-left: 13px;
+}
+
+/*
+#time-out-page #message-group {
+	height: 12em;
+}
+*/
+#assertive_table {
+	border-collapse: collapse;
+}
+
+#assertive_table th,td {
+	border: 1px solid white
+}
+
+#ol_letters {
+	/* Change an ordered list from numbers to lowercase letters */
+	list-style-type: lower-alpha;
+}
+
+.underlined_text {
+	text-decoration: underline;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////*/
+/*// OVERRIDES BASED ON MEDIA QUERIES //////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////////////////*/
+
+/* Smaller devices, like phones */
+@media screen and (max-width: 320px) { /*==global==*/
+	body {
+		font-size: 93%;
+	}
+	/*==main list page==*/
+	/* smaller thumbnails  */
+	#main .ui-li-thumb {
+		height: 60px;
+	}
+	/* limit list height to display more items  */
+	#main ul#subject .ui-btn-text {
+		height: 60px;
+	}
+	/* remove large padding  */
+	#main .ui-link-inherit {
+		padding-left: 70px !important;
+		padding-right: 40px !important;
+	}
+	div.foursquare img {
+		height: 80px;
+	}
+}
+
+@media screen and (min-width: 400px) {
+	#foursquare {
+		font-size: 115%;
+	}
+}

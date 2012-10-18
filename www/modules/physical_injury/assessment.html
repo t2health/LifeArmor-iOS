@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+	<div data-role="page" class="assessment add-footer"
+		id="pys_injury_assessment" data-theme="z">
+		<script type="text/javascript" src="assessment.js"></script>
+		<div data-role="header">
+			<img src="module.png" />
+			<h1>Physical Injury : Assessment</h1>
+		</div>
+		<div data-role="content">
+			<div>The following statements describe how some individuals may
+				think, feel, or act during and after the most stressful events in
+				life. Please indicate how well each of these statements describes
+				your response to the stress of your physical injury.</div>
+			<form id="phy_assess-form">
+
+				<div data-role="fieldcontain">
+					<fieldset data-role="controlgroup" data-type="horizontal"
+						class="likert1-5">
+						<legend>
+							1. In response to the stress of my physical injury, I tend to <em>take
+								action to fix things.</em>
+						</legend>
+						<input type="radio" name="1" id="pi10" value="0" /><label
+							for="pi10">0</label> <input type="radio" name="1" id="pi11"
+							value="1" /><label for="pi11">1</label> <input type="radio"
+							name="1" id="pi12" value="2" /><label for="pi12">2</label> <input
+							type="radio" name="1" id="pi13" value="3" /><label for="pi13">3</label>
+						<input type="radio" name="1" id="pi14" value="4" /><label
+							for="pi14">4</label>
+						<div class="likert-scale-legend">
+							<span class="Llegend">Not at All Like Me</span> <span
+								class="Rlegend">Exactly Like Me</span>
+						</div>
+					</fieldset>
+				</div>
+
+				<div data-role="fieldcontain">
+					<fieldset data-role="controlgroup" data-type="horizontal"
+						class="likert1-5">
+						<legend>
+							2. In response to the stress of my physical injury, I tend to <em>
+								not give up trying to solve problems I think I can solve.</em>
+						</legend>
+						<input type="radio" name="2" id="pi20" value="0" /><label
+							for="pi20">0</label> <input type="radio" name="2" id="pi21"
+							value="1" /><label for="pi21">1</label> <input type="radio"
+							name="2" id="pi22" value="2" /><label for="pi22">2</label> <input
+							type="radio" name="2" id="pi23" value="3" /><label for="pi23">3</label>
+						<input type="radio" name="2" id="pi24" value="4" /><label
+							for="pi24">4</label>
+
+						<div class="likert-scale-legend">
+							<span class="Llegend">Not at All Like Me</span> <span
+								class="Rlegend">Exactly Like Me</span>
+						</div>
+					</fieldset>
+				</div>
+
+				<div data-role="fieldcontain">
+					<fieldset data-role="controlgroup" data-type="horizontal"
+						class="likert1-5">
+						<legend>
+							3. In response to the stress of my physical injury, I tend to <em>find
+								a way to do what's necessary to carry on.</em>
+						</legend>
+						<input type="radio" name="3" id="pi30" value="0" /><label
+							for="pi30">0</label> <input type="radio" name="3" id="pi31"
+							value="1" /><label for="pi31">1</label> <input type="radio"
+							name="3" id="pi32" value="2" /><label for="pi32">2</label> <input
+							type="radio" name="3" id="pi33" value="3" /><label for="pi33">3</label>
+						<input type="radio" name="3" id="pi34" value="4" /><label
+							for="pi34">4</label>
+						<div class="likert-scale-legend">
+							<span class="Llegend">Not at All Like Me</span> <span
+								class="Rlegend">Exactly Like Me</span>
+						</div>
+					</fieldset>
+				</div>
+
+				<div data-role="fieldcontain">
+					<fieldset data-role="controlgroup" data-type="horizontal"
+						class="likert1-5">
+						<legend>
+							4. In response to the stress of my physical injury, I tend to <em>pray
+								or meditate.</em>
+						</legend>
+						<input type="radio" name="4" id="pi40" value="0" /><label
+							for="pi40">0</label> <input type="radio" name="4" id="pi41"
+							value="1" /><label for="pi41">1</label> <input type="radio"
+							name="4" id="pi42" value="2" /><label for="pi42">2</label> <input
+							type="radio" name="4" id="pi43" value="3" /><label for="pi43">3</label>
+						<input type="radio" name="4" id="pi44" value="4" /><label
+							for="pi44">4</label>
+						<div class="likert-scale-legend">
+							<span class="Llegend">Not at All Like Me</span> <span
+								class="Rlegend">Exactly Like Me</span>
+						</div>
+					</fieldset>
+				</div>
+
+				<div data-role="fieldcontain">
+					<fieldset data-role="controlgroup" data-type="horizontal"
+						class="likert1-5">
+						<legend>
+							5. In response to the stress of my physical injury, I tend to <em>face
+								my fears.</em>
+						</legend>
+						<input type="radio" name="5" id="pi50" value="0" /><label
+							for="pi50">0</label> <input type="radio" name="5" id="pi51"
+							value="1" /><label for="pi51">1</label> <input type="radio"
+							name="5" id="pi52" value="2" /><label for="pi52">2</label> <input
+							type="radio" name="5" id="pi53" value="3" /><label for="pi53">3</label>
+						<input type="radio" name="5" id="pi54" value="4" /><label
+							for="pi54">4</label>
+						<div class="likert-scale-legend">
+							<span class="Llegend">Not at All Like Me</span> <span
+								class="Rlegend">Exactly Like Me</span>
+						</div>
+					</fieldset>
+				</div>
+
+				<div data-role="fieldcontain">
+					<fieldset data-role="controlgroup" data-type="horizontal"
+						class="likert1-5">
+						<legend>
+							6. In response to the stress of my physical injury, I tend to <em>find
+								opportunity for growth.</em>
+						</legend>
+						<input type="radio" name="6" id="pi60" value="0" /><label
+							for="pi60">0</label> <input type="radio" name="6" id="pi61"
+							value="1" /><label for="pi61">1</label> <input type="radio"
+							name="6" id="pi62" value="2" /><label for="pi62">2</label> <input
+							type="radio" name="6" id="pi63" value="3" /><label for="pi63">3</label>
+						<input type="radio" name="6" id="pi64" value="4" /><label
+							for="pi64">4</label>
+						<div class="likert-scale-legend">
+							<span class="Llegend">Not at All Like Me</span> <span
+								class="Rlegend">Exactly Like Me</span>
+						</div>
+					</fieldset>
+				</div>
+
+				<div data-role="fieldcontain">
+					<fieldset data-role="controlgroup" data-type="horizontal"
+						class="likert1-5">
+						<legend>
+							7. In response to the stress of my physical injury, I tend to <em>calm
+								and comfort myself.</em>
+						</legend>
+						<input type="radio" name="7" id="pi70" value="0" /><label
+							for="pi70">0</label> <input type="radio" name="7" id="pi71"
+							value="1" /><label for="pi71">1</label> <input type="radio"
+							name="7" id="pi72" value="2" /><label for="pi72">2</label> <input
+							type="radio" name="7" id="pi73" value="3" /><label for="pi73">3</label>
+						<input type="radio" name="7" id="pi74" value="4" /><label
+							for="pi74">4</label>
+						<div class="likert-scale-legend">
+							<span class="Llegend">Not at All Like Me</span> <span
+								class="Rlegend">Exactly Like Me</span>
+						</div>
+					</fieldset>
+				</div>
+
+				<div data-role="fieldcontain">
+					<fieldset data-role="controlgroup" data-type="horizontal"
+						class="likert1-5">
+						<legend>
+							8. In response to the stress of my physical injury, I tend to <em>try
+								to &quot;recharge&quot; myself before I have to face the next
+								challenge.</em>
+						</legend>
+						<input type="radio" name="8" id="pi80" value="0" /><label
+							for="pi80">0</label> <input type="radio" name="8" id="pi81"
+							value="1" /><label for="pi81">1</label> <input type="radio"
+							name="8" id="pi82" value="2" /><label for="pi82">2</label> <input
+							type="radio" name="8" id="pi83" value="3" /><label for="pi83">3</label>
+						<input type="radio" name="8" id="pi84" value="4" /><label
+							for="pi84">4</label>
+						<div class="likert-scale-legend">
+							<span class="Llegend">Not at All Like Me</span> <span
+								class="Rlegend">Exactly Like Me</span>
+						</div>
+					</fieldset>
+				</div>
+
+				<div data-role="fieldcontain">
+					<fieldset data-role="controlgroup" data-type="horizontal"
+						class="likert1-5">
+						<legend>
+							9. In response to the stress of my physical injury, I tend to <em>see
+								it as a challenge that will make me better.</em>
+						</legend>
+						<input type="radio" name="9" id="pi90" value="0" /><label
+							for="pi90">0</label> <input type="radio" name="9" id="pi91"
+							value="1" /><label for="pi91">1</label> <input type="radio"
+							name="9" id="pi92" value="2" /><label for="pi92">2</label> <input
+							type="radio" name="9" id="pi93" value="3" /><label for="pi93">3</label>
+						<input type="radio" name="9" id="pi94" value="4" /><label
+							for="pi94">4</label>
+						<div class="likert-scale-legend">
+							<span class="Llegend">Not at All Like Me</span> <span
+								class="Rlegend">Exactly Like Me</span>
+						</div>
+					</fieldset>
+				</div>
+
+				<div data-role="fieldcontain">
+					<fieldset data-role="controlgroup" data-type="horizontal"
+						class="likert1-5">
+						<legend>
+							10. In response to the stress of my physical injury, I tend to <em>
+								look at the problem in a number of ways.</em>
+						</legend>
+						<input type="radio" name="10" id="pi100" value="0" /><label
+							for="pi100">0</label> <input type="radio" name="10" id="pi101"
+							value="1" /><label for="pi101">1</label> <input type="radio"
+							name="10" id="pi102" value="2" /><label for="pi102">2</label> <input
+							type="radio" name="10" id="pi103" value="3" /><label for="pi103">3</label>
+						<input type="radio" name="10" id="pi104" value="4" /><label
+							for="pi104">4</label>
+						<div class="likert-scale-legend">
+							<span class="Llegend">Not at All Like Me</span> <span
+								class="Rlegend">Exactly Like Me</span>
+						</div>
+					</fieldset>
+				</div>
+
+				<div data-role="fieldcontain">
+					<fieldset data-role="controlgroup" data-type="horizontal"
+						class="likert1-5">
+						<legend>
+							11. In response to the stress of my physical injury, I tend to <em>
+								look for creative solutions to the problem.</em>
+						</legend>
+						<input type="radio" name="11" id="pi110" value="0" /><label
+							for="pi110">0</label> <input type="radio" name="11" id="pi111"
+							value="1" /><label for="pi111">1</label> <input type="radio"
+							name="11" id="pi112" value="2" /><label for="pi112">2</label> <input
+							type="radio" name="11" id="pi113" value="3" /><label for="pi113">3</label>
+						<input type="radio" name="11" id="pi114" value="4" /><label
+							for="pi114">4</label>
+						<div class="likert-scale-legend">
+							<span class="Llegend">Not at All Like Me</span> <span
+								class="Rlegend">Exactly Like Me</span>
+						</div>
+					</fieldset>
+				</div>
+
+				<div data-role="fieldcontain">
+					<fieldset data-role="controlgroup" data-type="horizontal"
+						class="likert1-5">
+						<legend>
+							12. In response to the stress of my physical injury, I tend to <em>
+								put things in perspective and realize I will have times of joy
+								and times of sadness.</em>
+						</legend>
+						<input type="radio" name="12" id="pi120" value="0" /><label
+							for="pi120">0</label> <input type="radio" name="12" id="pi121"
+							value="1" /><label for="pi121">1</label> <input type="radio"
+							name="12" id="pi122" value="2" /><label for="pi122">2</label> <input
+							type="radio" name="12" id="pi123" value="3" /><label for="pi123">3</label>
+						<input type="radio" name="12" id="pi124" value="4" /><label
+							for="pi124">4</label>
+						<div class="likert-scale-legend">
+							<span class="Llegend">Not at All Like Me</span> <span
+								class="Rlegend">Exactly Like Me</span>
+						</div>
+					</fieldset>
+				</div>
+
+				<div data-role="fieldcontain">
+					<fieldset data-role="controlgroup" data-type="horizontal"
+						class="likert1-5">
+						<legend>
+							13. In response to the stress of my physical injury, I tend to <em>
+								be good at determining which situations <span
+								class="underlined_text">are</span> changeable and which <span
+								class="underlined_text">are not</span>.</em>
+						</legend>
+						<input type="radio" name="13" id="pi130" value="0" /><label
+							for="pi130">0</label> <input type="radio" name="13" id="pi131"
+							value="1" /><label for="pi131">1</label> <input type="radio"
+							name="13" id="pi132" value="2" /><label for="pi132">2</label> <input
+							type="radio" name="13" id="pi133" value="3" /><label for="pi133">3</label>
+						<input type="radio" name="13" id="pi134" value="4" /><label
+							for="pi134">4</label>
+						<div class="likert-scale-legend">
+							<span class="Llegend">Not at All Like Me</span> <span
+								class="Rlegend">Exactly Like Me</span>
+						</div>
+					</fieldset>
+				</div>
+
+				<div data-role="fieldcontain">
+					<fieldset data-role="controlgroup" data-type="horizontal"
+						class="likert1-5">
+						<legend>
+							14. In response to the stress of my physical injury, I tend to <em>
+								find meaning from the experience.</em>
+						</legend>
+						<input type="radio" name="14" id="pi140" value="0" /><label
+							for="pi140">0</label> <input type="radio" name="14" id="pi141"
+							value="1" /><label for="pi141">1</label> <input type="radio"
+							name="14" id="pi142" value="2" /><label for="pi142">2</label> <input
+							type="radio" name="14" id="pi143" value="3" /><label for="pi143">3</label>
+						<input type="radio" name="14" id="pi144" value="4" /><label
+							for="pi144">4</label>
+						<div class="likert-scale-legend">
+							<span class="Llegend">Not at All Like Me</span> <span
+								class="Rlegend">Exactly Like Me</span>
+						</div>
+					</fieldset>
+				</div>
+
+				<div data-role="fieldcontain">
+					<fieldset data-role="controlgroup" data-type="horizontal"
+						class="likert1-5">
+						<legend>
+							15. In response to the stress of my physical injury, I tend to <em>
+								find strength in the meaning, purpose, or mission of my life.</em>
+						</legend>
+						<input type="radio" name="15" id="pi150" value="0" /><label
+							for="pi150">0</label> <input type="radio" name="15" id="pi151"
+							value="1" /><label for="pi151">1</label> <input type="radio"
+							name="15" id="pi152" value="2" /><label for="pi152">2</label> <input
+							type="radio" name="15" id="pi153" value="3" /><label for="pi153">3</label>
+						<input type="radio" name="15" id="pi154" value="4" /><label
+							for="pi154">4</label>
+						<div class="likert-scale-legend">
+							<span class="Llegend">Not at All Like Me</span> <span
+								class="Rlegend">Exactly Like Me</span>
+						</div>
+					</fieldset>
+				</div>
+
+				<div data-role="fieldcontain">
+					<fieldset data-role="controlgroup" data-type="horizontal"
+						class="likert1-5">
+						<legend>
+							16. In response to the stress of my physical injury, I tend to <em>
+								know I will bounce back.</em>
+						</legend>
+						<input type="radio" name="16" id="pi160" value="0" /><label
+							for="pi160">0</label> <input type="radio" name="16" id="pi161"
+							value="1" /><label for="pi161">1</label> <input type="radio"
+							name="16" id="pi162" value="2" /><label for="pi162">2</label> <input
+							type="radio" name="16" id="pi163" value="3" /><label for="pi163">3</label>
+						<input type="radio" name="16" id="pi164" value="4" /><label
+							for="pi164">4</label>
+						<div class="likert-scale-legend">
+							<span class="Llegend">Not at All Like Me</span> <span
+								class="Rlegend">Exactly Like Me</span>
+						</div>
+					</fieldset>
+				</div>
+
+				<div data-role="fieldcontain">
+					<fieldset data-role="controlgroup" data-type="horizontal"
+						class="likert1-5">
+						<legend>
+							17. In response to the stress of my physical injury, I tend to <em>
+								expect that I can handle it.</em>
+						</legend>
+						<input type="radio" name="17" id="pi170" value="0" /><label
+							for="pi170">0</label> <input type="radio" name="17" id="pi171"
+							value="1" /><label for="pi171">1</label> <input type="radio"
+							name="17" id="pi172" value="2" /><label for="pi172">2</label> <input
+							type="radio" name="17" id="pi173" value="3" /><label for="pi173">3</label>
+						<input type="radio" name="17" id="pi174" value="4" /><label
+							for="pi174">4</label>
+						<div class="likert-scale-legend">
+							<span class="Llegend">Not at All Like Me</span> <span
+								class="Rlegend">Exactly Like Me</span>
+						</div>
+					</fieldset>
+				</div>
+
+				<div data-role="fieldcontain">
+					<fieldset data-role="controlgroup" data-type="horizontal"
+						class="likert1-5">
+						<legend>
+							18. In response to the stress of my physical injury, I tend to <em>
+								learn important and useful life lessons.</em>
+						</legend>
+						<input type="radio" name="18" id="pi180" value="0" /><label
+							for="pi180">0</label> <input type="radio" name="18" id="pi181"
+							value="1" /><label for="pi181">1</label> <input type="radio"
+							name="18" id="pi182" value="2" /><label for="pi182">2</label> <input
+							type="radio" name="18" id="pi183" value="3" /><label for="pi183">3</label>
+						<input type="radio" name="18" id="pi184" value="4" /><label
+							for="pi184">4</label>
+						<div class="likert-scale-legend">
+							<span class="Llegend">Not at All Like Me</span> <span
+								class="Rlegend">Exactly Like Me</span>
+						</div>
+					</fieldset>
+				</div>
+
+				<div data-role="fieldcontain">
+					<fieldset data-role="controlgroup" data-type="horizontal"
+						class="likert1-5">
+						<legend>
+							19. In response to the stress of my physical injury, I tend to <em>
+								understand that bad things can happen to anyone, not just me.</em>
+						</legend>
+						<input type="radio" name="19" id="pi190" value="0" /><label
+							for="pi190">0</label> <input type="radio" name="19" id="pi191"
+							value="1" /><label for="pi191">1</label> <input type="radio"
+							name="19" id="pi192" value="2" /><label for="pi192">2</label> <input
+							type="radio" name="19" id="pi193" value="3" /><label for="pi193">3</label>
+						<input type="radio" name="19" id="pi194" value="4" /><label
+							for="pi194">4</label>
+						<div class="likert-scale-legend">
+							<span class="Llegend">Not at All Like Me</span> <span
+								class="Rlegend">Exactly Like Me</span>
+						</div>
+					</fieldset>
+				</div>
+
+				<div data-role="fieldcontain">
+					<fieldset data-role="controlgroup" data-type="horizontal"
+						class="likert1-5">
+						<legend>
+							20. In response to the stress of my physical injury, I tend to <em>
+								lean on my faith in God or a higher power.</em>
+						</legend>
+						<input type="radio" name="20" id="pi200" value="0" /><label
+							for="pi200">0</label> <input type="radio" name="20" id="pi201"
+							value="1" /><label for="pi201">1</label> <input type="radio"
+							name="20" id="pi202" value="2" /><label for="pi202">2</label> <input
+							type="radio" name="20" id="pi203" value="3" /><label for="pi203">3</label>
+						<input type="radio" name="20" id="pi204" value="4" /><label
+							for="pi204">4</label>
+						<div class="likert-scale-legend">
+							<span class="Llegend">Not at All Like Me</span> <span
+								class="Rlegend">Exactly Like Me</span>
+						</div>
+					</fieldset>
+				</div>
+
+				<div data-role="fieldcontain">
+					<fieldset data-role="controlgroup" data-type="horizontal"
+						class="likert1-5">
+						<legend>
+							21. In response to the stress of my physical injury, I tend to <em>
+								draw upon lessons learned from failures and past mistakes.</em>
+						</legend>
+						<input type="radio" name="21" id="pi210" value="0" /><label
+							for="pi210">0</label> <input type="radio" name="21" id="pi211"
+							value="1" /><label for="pi211">1</label> <input type="radio"
+							name="21" id="pi212" value="2" /><label for="pi212">2</label> <input
+							type="radio" name="21" id="pi213" value="3" /><label for="pi213">3</label>
+						<input type="radio" name="21" id="pi214" value="4" /><label
+							for="pi214">4</label>
+						<div class="likert-scale-legend">
+							<span class="Llegend">Not at All Like Me</span> <span
+								class="Rlegend">Exactly Like Me</span>
+						</div>
+					</fieldset>
+				</div>
+
+				<div data-role="fieldcontain">
+					<fieldset data-role="controlgroup" data-type="horizontal"
+						class="likert1-5">
+						<legend>
+							22. In response to the stress of my physical injury, I tend to <em>
+								practice ways to handle it better next time.</em>
+						</legend>
+						<input type="radio" name="22" id="pi220" value="0" /><label
+							for="pi220">0</label> <input type="radio" name="22" id="pi221"
+							value="1" /><label for="pi221">1</label> <input type="radio"
+							name="22" id="pi222" value="2" /><label for="pi222">2</label> <input
+							type="radio" name="22" id="pi223" value="3" /><label for="pi223">3</label>
+						<input type="radio" name="22" id="pi224" value="4" /><label
+							for="pi224">4</label>
+						<div class="likert-scale-legend">
+							<span class="Llegend">Not at All Like Me</span> <span
+								class="Rlegend">Exactly Like Me</span>
+						</div>
+					</fieldset>
+				</div>
+
+				<button id="pys_injury_assessment-submit" data-theme="z">Submit</button>
+			</form>
+		</div>
+	</div>
+</body>

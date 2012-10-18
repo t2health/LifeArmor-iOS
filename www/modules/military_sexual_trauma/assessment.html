@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+	<div data-role="page" class="assessment add-footer" id="mst-assessment"
+		data-theme="z">
+		<script type="text/javascript" src="assessment.js"></script>
+		<script type="text/javascript" src="../validation.js"></script>
+		<div data-role="header">
+			<img src="module.png" />
+			<h1>Military Sexual Trauma : Assessment</h1>
+		</div>
+		<div data-role="content">
+			<div>
+				Instructions: Below is a list of problems and complaints that
+				veterans sometimes have in response to stressful life experiences.
+				Please read each one carefully, mark the answer to indicate how much
+				you have been bothered by that problem <i>in the last month.</i>
+			</div>
+			<form id="assess-form">
+
+				<div data-role="fieldcontain" id="mst1_fieldcontain">
+					<fieldset data-role="controlgroup" data-type="horizontal"
+						class="likert1-5">
+						<legend>
+							1. Repeated, disturbing <i>memories, thoughts, or images</i> of a
+							stressful experience from the past?
+						</legend>
+						<input type="radio" name="mst1" id="pi11" value="1" /><label
+							for="pi11">1</label> <input type="radio" name="mst1" id="pi12"
+							value="2" /><label for="pi12">2</label> <input type="radio"
+							name="mst1" id="pi13" value="3" /><label for="pi13">3</label> <input
+							type="radio" name="mst1" id="pi14" value="4" /><label for="pi14">4</label>
+						<input type="radio" name="mst1" id="pi15" value="5" /><label
+							for="pi15">5</label>
+						<div class="likert-scale-legend">
+							<span class="Llegend">Not at all</span> <span class="Rlegend">Extremely</span>
+						</div>
+					</fieldset>
+				</div>
+
+				<div data-role="fieldcontain" id="mst2_fieldcontain">
+					<fieldset data-role="controlgroup" data-type="horizontal"
+						class="likert1-5">
+						<legend>
+							2. Repeated, disturbing <i>dreams</i> of a stressful experience
+							from the past?
+						</legend>
+						<input type="radio" name="mst2" id="pi21" value="1" /><label
+							for="pi21">1</label> <input type="radio" name="mst2" id="pi22"
+							value="2" /><label for="pi22">2</label> <input type="radio"
+							name="mst2" id="pi23" value="3" /><label for="pi23">3</label> <input
+							type="radio" name="mst2" id="pi24" value="4" /><label for="pi24">4</label>
+						<input type="radio" name="mst2" id="pi25" value="5" /><label
+							for="pi25">5</label>
+						<div class="likert-scale-legend">
+							<span class="Llegend">Not at all</span> <span class="Rlegend">Extremely</span>
+						</div>
+					</fieldset>
+				</div>
+
+				<div data-role="fieldcontain" id="mst3_fieldcontain">
+					<fieldset data-role="controlgroup" data-type="horizontal"
+						class="likert1-5">
+						<legend>
+							3. Suddenly <i>acting or feeling</i> as if a stressful experience
+							<i>were happening again</i> (as if you were reliving it)?
+						</legend>
+						<input type="radio" name="mst3" id="pi31" value="1" /><label
+							for="pi31">1</label> <input type="radio" name="mst3" id="pi32"
+							value="2" /><label for="pi32">2</label> <input type="radio"
+							name="mst3" id="pi33" value="3" /><label for="pi33">3</label> <input
+							type="radio" name="mst3" id="pi34" value="4" /><label for="pi34">4</label>
+						<input type="radio" name="mst3" id="pi35" value="5" /><label
+							for="pi35">5</label>
+						<div class="likert-scale-legend">
+							<span class="Llegend">Not at all</span> <span class="Rlegend">Extremely</span>
+						</div>
+					</fieldset>
+				</div>
+
+				<div data-role="fieldcontain" id="mst4_fieldcontain">
+					<fieldset data-role="controlgroup" data-type="horizontal"
+						class="likert1-5">
+						<legend>
+							4. Feeling <i>very upset</i> when <i>something reminded</i> you
+							of a stressful experience from the past?
+						</legend>
+						<input type="radio" name="mst4" id="pi41" value="1" /><label
+							for="pi41">1</label> <input type="radio" name="mst4" id="pi42"
+							value="2" /><label for="pi42">2</label> <input type="radio"
+							name="mst4" id="pi43" value="3" /><label for="pi43">3</label> <input
+							type="radio" name="mst4" id="pi44" value="4" /><label for="pi44">4</label>
+						<input type="radio" name="mst4" id="pi45" value="5" /><label
+							for="pi45">5</label>
+						<div class="likert-scale-legend">
+							<span class="Llegend">Not at all</span> <span class="Rlegend">Extremely</span>
+						</div>
+					</fieldset>
+				</div>
+
+				<div data-role="fieldcontain" id="mst5_fieldcontain">
+					<fieldset data-role="controlgroup" data-type="horizontal"
+						class="likert1-5">
+						<legend>
+							5. Having <i>physical reactions</i> (e.g., heart pounding,
+							trouble breathing, or sweating) when <i>something reminded</i>
+							you of a stressful experience from the past?
+						</legend>
+						<input type="radio" name="mst5" id="pi51" value="1" /><label
+							for="pi51">1</label> <input type="radio" name="mst5" id="pi52"
+							value="2" /><label for="pi52">2</label> <input type="radio"
+							name="mst5" id="pi53" value="3" /><label for="pi53">3</label> <input
+							type="radio" name="mst5" id="pi54" value="4" /><label for="pi54">4</label>
+						<input type="radio" name="mst5" id="pi55" value="5" /><label
+							for="pi55">5</label>
+						<div class="likert-scale-legend">
+							<span class="Llegend">Not at all</span> <span class="Rlegend">Extremely</span>
+						</div>
+					</fieldset>
+				</div>
+
+				<div data-role="fieldcontain" id="mst6_fieldcontain">
+					<fieldset data-role="controlgroup" data-type="horizontal"
+						class="likert1-5">
+						<legend>
+							6. Avoiding <i>thinking about</i> or <i>talking about</i> a
+							stressful experience from the past or avoid having feelings
+							related to it?
+						</legend>
+						<input type="radio" name="mst6" id="pi61" value="1" /><label
+							for="pi61">1</label> <input type="radio" name="mst6" id="pi62"
+							value="2" /><label for="pi62">2</label> <input type="radio"
+							name="mst6" id="pi63" value="3" /><label for="pi63">3</label> <input
+							type="radio" name="mst6" id="pi64" value="4" /><label for="pi64">4</label>
+						<input type="radio" name="mst6" id="pi65" value="5" /><label
+							for="pi65">5</label>
+						<div class="likert-scale-legend">
+							<span class="Llegend">Not at all</span> <span class="Rlegend">Extremely</span>
+						</div>
+					</fieldset>
+				</div>
+
+				<div data-role="fieldcontain" id="mst7_fieldcontain">
+					<fieldset data-role="controlgroup" data-type="horizontal"
+						class="likert1-5">
+						<legend>
+							7. Avoid <i>activities or situations</i> because <i>they
+								remind you</i> of a stressful experience from the past?
+						</legend>
+						<input type="radio" name="mst7" id="pi71" value="1" /><label
+							for="pi71">1</label> <input type="radio" name="mst7" id="pi72"
+							value="2" /><label for="pi72">2</label> <input type="radio"
+							name="mst7" id="pi73" value="3" /><label for="pi73">3</label> <input
+							type="radio" name="mst7" id="pi74" value="4" /><label for="pi74">4</label>
+						<input type="radio" name="mst7" id="pi75" value="5" /><label
+							for="pi75">5</label>
+						<div class="likert-scale-legend">
+							<span class="Llegend">Not at all</span> <span class="Rlegend">Extremely</span>
+						</div>
+					</fieldset>
+				</div>
+
+				<div data-role="fieldcontain" id="mst8_fieldcontain">
+					<fieldset data-role="controlgroup" data-type="horizontal"
+						class="likert1-5">
+						<legend>
+							8. Trouble <i>remembering important parts</i> of a stressful
+							experience from the past?
+						</legend>
+						<input type="radio" name="mst8" id="pi81" value="1" /><label
+							for="pi81">1</label> <input type="radio" name="mst8" id="pi82"
+							value="2" /><label for="pi82">2</label> <input type="radio"
+							name="mst8" id="pi83" value="3" /><label for="pi83">3</label> <input
+							type="radio" name="mst8" id="pi84" value="4" /><label for="pi84">4</label>
+						<input type="radio" name="mst8" id="pi85" value="5" /><label
+							for="pi85">5</label>
+						<div class="likert-scale-legend">
+							<span class="Llegend">Not at all</span> <span class="Rlegend">Extremely</span>
+						</div>
+					</fieldset>
+				</div>
+
+				<div data-role="fieldcontain" id="mst9_fieldcontain">
+					<fieldset data-role="controlgroup" data-type="horizontal"
+						class="likert1-5">
+						<legend>
+							9. Loss of <i>interest in things that you used to enjoy</i>?
+						</legend>
+						<input type="radio" name="mst9" id="pi91" value="1" /><label
+							for="pi91">1</label> <input type="radio" name="mst9" id="pi92"
+							value="2" /><label for="pi92">2</label> <input type="radio"
+							name="mst9" id="pi93" value="3" /><label for="pi93">3</label> <input
+							type="radio" name="mst9" id="pi94" value="4" /><label for="pi94">4</label>
+						<input type="radio" name="mst9" id="pi95" value="5" /><label
+							for="pi95">5</label>
+						<div class="likert-scale-legend">
+							<span class="Llegend">Not at all</span> <span class="Rlegend">Extremely</span>
+						</div>
+					</fieldset>
+				</div>
+
+				<div data-role="fieldcontain" id="mst10_fieldcontain">
+					<fieldset data-role="controlgroup" data-type="horizontal"
+						class="likert1-5">
+						<legend>
+							10. Feeling distant or <i>cut off</i> from other people?
+						</legend>
+						<input type="radio" name="mst10" id="pi101" value="1" /><label
+							for="pi101">1</label> <input type="radio" name="mst10" id="pi102"
+							value="2" /><label for="pi102">2</label> <input type="radio"
+							name="mst10" id="pi103" value="3" /><label for="pi103">3</label>
+						<input type="radio" name="mst10" id="pi104" value="4" /><label
+							for="pi104">4</label> <input type="radio" name="mst10" id="pi105"
+							value="5" /><label for="pi105">5</label>
+						<div class="likert-scale-legend">
+							<span class="Llegend">Not at all</span> <span class="Rlegend">Extremely</span>
+						</div>
+					</fieldset>
+				</div>
+
+				<div data-role="fieldcontain" id="mst11_fieldcontain">
+					<fieldset data-role="controlgroup" data-type="horizontal"
+						class="likert1-5">
+						<legend>
+							11. Feeling <i>emotionally numb</i> or being unable to have
+							loving feelings for those close to you?
+						</legend>
+						<input type="radio" name="mst11" id="pi111" value="1" /><label
+							for="pi111">1</label> <input type="radio" name="mst11" id="pi112"
+							value="2" /><label for="pi112">2</label> <input type="radio"
+							name="mst11" id="pi113" value="3" /><label for="pi113">3</label>
+						<input type="radio" name="mst11" id="pi114" value="4" /><label
+							for="pi114">4</label> <input type="radio" name="mst11" id="pi115"
+							value="5" /><label for="pi115">5</label>
+						<div class="likert-scale-legend">
+							<span class="Llegend">Not at all</span> <span class="Rlegend">Extremely</span>
+						</div>
+					</fieldset>
+				</div>
+
+				<div data-role="fieldcontain" id="mst12_fieldcontain">
+					<fieldset data-role="controlgroup" data-type="horizontal"
+						class="likert1-5">
+						<legend>
+							12. Feeling as if your <i>future</i> will somehow be <i>cut
+								short</i>?
+						</legend>
+						<input type="radio" name="mst12" id="pi121" value="1" /><label
+							for="pi121">1</label> <input type="radio" name="mst12" id="pi122"
+							value="2" /><label for="pi122">2</label> <input type="radio"
+							name="mst12" id="pi123" value="3" /><label for="pi123">3</label>
+						<input type="radio" name="mst12" id="pi124" value="4" /><label
+							for="pi124">4</label> <input type="radio" name="mst12" id="pi125"
+							value="5" /><label for="pi125">5</label>
+						<div class="likert-scale-legend">
+							<span class="Llegend">Not at all</span> <span class="Rlegend">Extremely</span>
+						</div>
+					</fieldset>
+				</div>
+
+				<div data-role="fieldcontain" id="mst13_fieldcontain">
+					<fieldset data-role="controlgroup" data-type="horizontal"
+						class="likert1-5">
+						<legend>
+							13. Trouble <i>falling</i> or <i>staying asleep</i>?
+						</legend>
+						<input type="radio" name="mst13" id="pi131" value="1" /><label
+							for="pi131">1</label> <input type="radio" name="mst13" id="pi132"
+							value="2" /><label for="pi132">2</label> <input type="radio"
+							name="mst13" id="pi133" value="3" /><label for="pi133">3</label>
+						<input type="radio" name="mst13" id="pi134" value="4" /><label
+							for="pi134">4</label> <input type="radio" name="mst13" id="pi135"
+							value="5" /><label for="pi135">5</label>
+						<div class="likert-scale-legend">
+							<span class="Llegend">Not at all</span> <span class="Rlegend">Extremely</span>
+						</div>
+					</fieldset>
+				</div>
+
+				<div data-role="fieldcontain" id="mst14_fieldcontain">
+					<fieldset data-role="controlgroup" data-type="horizontal"
+						class="likert1-5">
+						<legend>
+							14. Feeling <i>irritable</i> or having <i>angry outbursts</i>?
+						</legend>
+						<input type="radio" name="mst14" id="pi141" value="1" /><label
+							for="pi141">1</label> <input type="radio" name="mst14" id="pi142"
+							value="2" /><label for="pi142">2</label> <input type="radio"
+							name="mst14" id="pi143" value="3" /><label for="pi143">3</label>
+						<input type="radio" name="mst14" id="pi144" value="4" /><label
+							for="pi144">4</label> <input type="radio" name="mst14" id="pi145"
+							value="5" /><label for="pi145">5</label>
+						<div class="likert-scale-legend">
+							<span class="Llegend">Not at all</span> <span class="Rlegend">Extremely</span>
+						</div>
+					</fieldset>
+				</div>
+
+				<div data-role="fieldcontain" id="mst15_fieldcontain">
+					<fieldset data-role="controlgroup" data-type="horizontal"
+						class="likert1-5">
+						<legend>
+							15. Having <i>difficulty concentrating</i>?
+						</legend>
+						<input type="radio" name="mst15" id="pi151" value="1" /><label
+							for="pi151">1</label> <input type="radio" name="mst15" id="pi152"
+							value="2" /><label for="pi152">2</label> <input type="radio"
+							name="mst15" id="pi153" value="3" /><label for="pi153">3</label>
+						<input type="radio" name="mst15" id="pi154" value="4" /><label
+							for="pi154">4</label> <input type="radio" name="mst15" id="pi155"
+							value="5" /><label for="pi155">5</label>
+						<div class="likert-scale-legend">
+							<span class="Llegend">Not at all</span> <span class="Rlegend">Extremely</span>
+						</div>
+					</fieldset>
+				</div>
+
+				<div data-role="fieldcontain" id="mst16_fieldcontain">
+					<fieldset data-role="controlgroup" data-type="horizontal"
+						class="likert1-5">
+						<legend>
+							16. Being <i>&quot;super alert&quot;</i> or watchful on guard?
+						</legend>
+						<input type="radio" name="mst16" id="pi161" value="1" /><label
+							for="pi161">1</label> <input type="radio" name="mst16" id="pi162"
+							value="2" /><label for="pi162">2</label> <input type="radio"
+							name="mst16" id="pi163" value="3" /><label for="pi163">3</label>
+						<input type="radio" name="mst16" id="pi164" value="4" /><label
+							for="pi164">4</label> <input type="radio" name="mst16" id="pi165"
+							value="5" /><label for="pi165">5</label>
+						<div class="likert-scale-legend">
+							<span class="Llegend">Not at all</span> <span class="Rlegend">Extremely</span>
+						</div>
+					</fieldset>
+				</div>
+
+				<div data-role="fieldcontain" id="mst17_fieldcontain">
+					<fieldset data-role="controlgroup" data-type="horizontal"
+						class="likert1-5">
+						<legend>
+							17. Feeling <i>jumpy</i> or easily startled?
+						</legend>
+						<input type="radio" name="mst17" id="pi171" value="1" /><label
+							for="pi171">1</label> <input type="radio" name="mst17" id="pi172"
+							value="2" /><label for="pi172">2</label> <input type="radio"
+							name="mst17" id="pi173" value="3" /><label for="pi173">3</label>
+						<input type="radio" name="mst17" id="pi174" value="4" /><label
+							for="pi174">4</label> <input type="radio" name="mst17" id="pi175"
+							value="5" /><label for="pi175">5</label>
+						<div class="likert-scale-legend">
+							<span class="Llegend">Not at all</span> <span class="Rlegend">Extremely</span>
+						</div>
+					</fieldset>
+				</div>
+
+				<button id="assessment-submit" data-theme="z">Submit</button>
+
+
+			</form>
+		</div>
+	</div>
+</body>

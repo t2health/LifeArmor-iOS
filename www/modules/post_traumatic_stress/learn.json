@@ -1,0 +1,90 @@
+{"learn" : [
+	{"q":"What is PTSD?", 
+	 "a":"<b>Posttraumatic Stress Disorder (PTSD)</b> is an anxiety disorder caused by experiencing traumatic events, such as combat, 
+		disasters, terrorism, serious accidents, or physical or sexual assault.  PTSD includes 3 types of symptoms. 
+		<ol>
+			<li>Reexperiencing or reliving the trauma, such as having flashbacks, nightmares, or becoming very upset when reminded of the trauma.</li>
+			<li>Avoiding or staying away from places or people because they remind you of the trauma, isolating from others, and/or feeling numb.</li>
+			<li>Increased arousal such as feeling on guard, being irritable, trouble sleeping or startling easily.</li>
+		</ol>
+		Symptoms may lead to problems in functioning in social or family life, work, and school."
+	}, 
+	{"q":"How PTSD develops",
+	 "a":"After a trauma, it's normal to have painful memories and to become upset when reminded of what happened.  Trauma also can affect how people 
+		think about themselves, others, the world, and the future.  For most, these reactions lessen over time and thinking returns to normal. For some,
+		however, reactions continue and are severe; they disrupt living, and beliefs remain negative and intense.  How people respond to these early, normal
+		reactions, in part, can determine if PTSD develops.  For example, because memories and reminders of the trauma are painful, it makes sense to want 
+		to avoid them.  However, too much avoidance can prevent a person from adequately dealing with the memories and reminders and making sense of what 
+		happened.  This may lead normal trauma reactions to become more lasting PTSD symptoms."
+	}
+]}
+
+/*<Content displayName="Who develops PTSD?" audio="Who Develops.mp3"><![CDATA[
+	<p>
+		Developing PTSD is not a sign of weakness.  Virtually anyone can develop PTSD.  However, there are some factors that can make it more likely.
+		These include being female, having a prior trauma, having been abused as a child, having a pre-existing mental health problem, and a family 
+		history of mental illness. 
+	</p>
+	<p>
+		Reactions <b>during</b> trauma can increase your risk. For example, believing you will die, feeling detached from yourself or your surroundings, 
+		feeling completely helpless, and having a panic attack are signs that the event was especially traumatic.  Being seriously injured also 
+		puts one at higher risk.  
+	</p>
+	<p>
+		Risk factors <b>after</b> trauma include lack of social support and experiencing additional life stressors (e.g., job loss, divorce). 
+	</p>
+]]></Content>
+<Content displayName="How long does PTSD last?" audio="How Long Last.mp3"><![CDATA[
+	PTSD symptoms usually appear very soon after trauma.  For about 70% of people, these symptoms go away on their own within the weeks and months 
+	after the trauma.  For some (about 30%) the symptoms can last for many years.  PTSD symptoms can stay at a fairly constant level of severity or 
+	individuals can have periods when symptoms are not very intense and other times when symptoms are severe.  PTSD symptoms can worsen during times 
+	of stress or when trauma survivors are reminded of the trauma (e.g., anniversaries).  How long PTSD lasts also depends on whether effective treatment 
+	is received.      
+]]></Content>
+<Content displayName="Related problems" audio="Related Problems.mp3"><![CDATA[
+	Other problems also commonly occur alongside PTSD.  These include depression, other anxiety disorders, and alcohol and substance abuse.  In fact, 
+	more than half of men with PTSD have alcohol problems and nearly half of women with PTSD have depression.  PTSD also can reduce one's ability to
+	function in their relationships, at work and school, and in leisure activities.  In addition, people with PTSD may suffer physical symptoms and
+	may be at increased risk of medical problems.
+]]></Content>
+<Content displayName="PTSD treatment" audio="PTSD Treatment.mp3"><![CDATA[
+	<p>
+		PTSD is treated with talk therapy or medication, or a combination of these.  The most effective treatments for PTSD are 
+		exposure-based cognitive-behavioral therapies (CBT).  These treatments involve exploring how the trauma has negatively affected
+		one's thinking and helping survivors think in more balanced ways about what happened and what it might mean. Treatment may also 
+		include having the trauma survivor spend time safely, and with support, with the painful trauma memories and reminders that they've 
+		been avoiding, seeing that they can survive them and be ok.  Individuals are also taught coping skills to more effectively deal 
+		with stress and manage PTSD symptoms, much like the skills available on this app.
+	</p>
+	<p>
+		For more information about treatment, including where to find it, see the find support section of this app or 
+		<a href="http://ptsd.va.gov">the National Center for PTSD website</a>.
+	</p>
+]]></Content>
+<Content displayName="Do I have PTSD?" audio="Do I Have PTSD.mp3"><![CDATA[
+	<p>
+		Only a trained mental health professional can determine if you have PTSD.  However, there are self-tests, including the one on
+		this app, which can help you decide if your symptoms require a more thorough evaluation from a professional.  If you suspect
+		that you have PTSD, talk with your doctor or schedule an evaluation with a mental health professional.  Also, it is important 
+		to remember that some people may develop other conditions, such as depression, after experiencing a trauma. 
+	</p>
+	<p>
+		If your trauma was less than 3 months ago and you are not in too much distress or having problems functioning with work, 
+		relationships or school, then you may just want to watch and wait to see if your symptoms get better on their own.  Using the 
+		tools in this app can help.  If your symptoms do not get better after 3 months, seek professional help.  
+	</p>
+	<p>
+	To take the self-assessment now, tap the "Assess" tab.
+	</p>
+]]></Content>
+<Content displayName="I have PTSD..." audio="I Have PTSD.mp3"><![CDATA[
+	<p>
+	If you've been diagnosed with PTSD, the tools on this app may help you better manage your symptoms.  However, this app is not intended or 
+	designed as a replacement for more traditional forms of psychological help.  If you are currently in treatment for PTSD, it's important to 
+	talk with your provider about using this app. Individuals with PTSD often find that having multiple tools and sources of support is a great 
+	strategy for successfully dealing with PTSD symptoms.
+	</p>
+	<p>
+	Remember: effective treatment for PTSD is available! You don't have to live with your symptoms forever.
+	</p>
+]]></Content>*/

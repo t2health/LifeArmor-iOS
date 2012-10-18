@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+	<div data-role="page" class="add-footer" id="videos" data-theme="z">
+		<div data-role="header">
+			<img src="module.png" />
+			<h1>Sleep : Videos</h1>
+		</div>
+
+		<div data-role="content">
+			<br />
+
+			<!-- this is currently using the breathe2relax player, until we get our own player for our own content  -->
+
+			<!-- Start of Brightcove Player -->
+			<div style="display: none"></div>
+			<!--
+By use of this code snippet, I agree to the Brightcove Publisher T and C
+found at https://accounts.brightcove.com/en/terms-and-conditions/.
+-->
+			<script language="JavaScript" type="text/javascript"
+				src="http://admin.brightcove.com/js/BrightcoveExperiences.js"></script>
+
+			<object id="myExperience594316519001" class="BrightcoveExperience">
+				<param name="bgcolor" value="#FFFFFF" />
+				<param name="width" value="350" />
+				<param name="height" value="400" />
+				<param name="playerID" value="626238450001" />
+				<param name="playerKey"
+					value="AQ%2E%2E,AAAABLsQgFE%2E,jGXrTxeVLARYa45zx_2VAn4fna-R1bIs" />
+				<param name="isVid" value="true" />
+				<param name="isUI" value="true" />
+				<param name="dynamicStreaming" value="true" />
+
+				<param name="@videoPlayer" value="594316519001" />
+			</object>
+
+			</object>
+			<!-- End of Brightcove Player -->
+		</div>
+	</div>
+	<!-- /main page -->
+</body>
+</html>

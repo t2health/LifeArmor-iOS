@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+	<div data-role="page" class="assessment add-footer" id="assessment"
+		data-theme="z">
+		<script type="text/javascript" src="assessment.js"></script>
+		<script type="text/javascript" src="../validation.js"></script>
+
+		<div data-role="header">
+			<img src="module.png" />
+			<h1>Anxiety : Assessment</h1>
+		</div>
+		<div data-role="content">
+			<form id="anxiety-assess-form">
+				<div data-role="fieldcontain" id="anxiety1_fieldcontain">
+					<fieldset data-role="controlgroup" data-type="horizontal"
+						class="likert1-5">
+						<legend>1. If I do not have enough time to do everything,
+							I do not worry about it.</legend>
+						<input type="radio" name="anxiety1" id="anxiety11" value="5" /><label
+							for="anxiety11">1</label> <input type="radio" name="anxiety1"
+							id="anxiety21" value="4" /><label for="anxiety21">2</label> <input
+							type="radio" name="anxiety1" id="anxiety31" value="3" /><label
+							for="anxiety31">3</label> <input type="radio" name="anxiety1"
+							id="anxiety41" value="2" /><label for="anxiety41">4</label> <input
+							type="radio" name="anxiety1" id="anxiety51" value="1" /><label
+							for="anxiety51">5</label>
+						<div class="likert-scale-legend">
+							<span class="Llegend">Not at all typical of me</span> <span
+								class="Rlegend">Very typical of me</span>
+						</div>
+					</fieldset>
+				</div>
+
+				<div data-role="fieldcontain" id="anxiety2_fieldcontain">
+					<fieldset data-role="controlgroup" data-type="horizontal"
+						class="likert1-5">
+						<legend>2. My worries overwhelm me.</legend>
+						<input type="radio" name="anxiety2" id="anxiety12" value="1" /><label
+							for="anxiety12">1</label> <input type="radio" name="anxiety2"
+							id="anxiety22" value="2" /><label for="anxiety22">2</label> <input
+							type="radio" name="anxiety2" id="anxiety32" value="3" /><label
+							for="anxiety32">3</label> <input type="radio" name="anxiety2"
+							id="anxiety42" value="4" /><label for="anxiety42">4</label> <input
+							type="radio" name="anxiety2" id="anxiety52" value="5" /><label
+							for="anxiety52">5</label>
+						<div class="likert-scale-legend">
+							<span class="Llegend">Not at all typical of me</span> <span
+								class="Rlegend">Very typical of me</span>
+						</div>
+					</fieldset>
+				</div>
+
+				<div data-role="fieldcontain" id="anxiety3_fieldcontain">
+					<fieldset data-role="controlgroup" data-type="horizontal"
+						class="likert1-5">
+						<legend>3. I do not tend to worry about things.</legend>
+						<input type="radio" name="anxiety3" id="anxiety13" value="5" /><label
+							for="anxiety13">1</label> <input type="radio" name="anxiety3"
+							id="anxiety23" value="4" /><label for="anxiety23">2</label> <input
+							type="radio" name="anxiety3" id="anxiety33" value="3" /><label
+							for="anxiety33">3</label> <input type="radio" name="anxiety3"
+							id="anxiety43" value="2" /><label for="anxiety43">4</label> <input
+							type="radio" name="anxiety3" id="anxiety53" value="1" /><label
+							for="anxiety53">5</label>
+						<div class="likert-scale-legend">
+							<span class="Llegend">Not at all typical of me</span> <span
+								class="Rlegend">Very typical of me</span>
+						</div>
+					</fieldset>
+				</div>
+
+				<div data-role="fieldcontain" id="anxiety4_fieldcontain">
+					<fieldset data-role="controlgroup" data-type="horizontal"
+						class="likert1-5">
+						<legend>4. Many situations make me worry.</legend>
+						<input type="radio" name="anxiety4" id="anxiety14" value="1" /><label
+							for="anxiety14">1</label> <input type="radio" name="anxiety4"
+							id="anxiety24" value="2" /><label for="anxiety24">2</label> <input
+							type="radio" name="anxiety4" id="anxiety34" value="3" /><label
+							for="anxiety34">3</label> <input type="radio" name="anxiety4"
+							id="anxiety44" value="4" /><label for="anxiety44">4</label> <input
+							type="radio" name="anxiety4" id="anxiety54" value="5" /><label
+							for="anxiety54">5</label>
+						<div class="likert-scale-legend">
+							<span class="Llegend">Not at all typical of me</span> <span
+								class="Rlegend">Very typical of me</span>
+						</div>
+					</fieldset>
+				</div>
+
+				<div data-role="fieldcontain" id="anxiety5_fieldcontain">
+					<fieldset data-role="controlgroup" data-type="horizontal"
+						class="likert1-5">
+						<legend>5. I know I should not worry about things, but I
+							just cannot help it.</legend>
+						<input type="radio" name="anxiety5" id="anxiety15" value="1" /><label
+							for="anxiety15">1</label> <input type="radio" name="anxiety5"
+							id="anxiety25" value="2" /><label for="anxiety25">2</label> <input
+							type="radio" name="anxiety5" id="anxiety35" value="3" /><label
+							for="anxiety35">3</label> <input type="radio" name="anxiety5"
+							id="anxiety45" value="4" /><label for="anxiety45">4</label> <input
+							type="radio" name="anxiety5" id="anxiety55" value="5" /><label
+							for="anxiety55">5</label>
+						<div class="likert-scale-legend">
+							<span class="Llegend">Not at all typical of me</span> <span
+								class="Rlegend">Very typical of me</span>
+						</div>
+					</fieldset>
+				</div>
+
+				<div data-role="fieldcontain" id="anxiety6_fieldcontain">
+					<fieldset data-role="controlgroup" data-type="horizontal"
+						class="likert1-5">
+						<legend>6. When I am under pressure I worry a lot.</legend>
+						<input type="radio" name="anxiety6" id="anxiety16" value="1" /><label
+							for="anxiety16">1</label> <input type="radio" name="anxiety6"
+							id="anxiety26" value="2" /><label for="anxiety26">2</label> <input
+							type="radio" name="anxiety6" id="anxiety36" value="3" /><label
+							for="anxiety36">3</label> <input type="radio" name="anxiety6"
+							id="anxiety46" value="4" /><label for="anxiety46">4</label> <input
+							type="radio" name="anxiety6" id="anxiety56" value="5" /><label
+							for="anxiety56">5</label>
+						<div class="likert-scale-legend">
+							<span class="Llegend">Not at all typical of me</span> <span
+								class="Rlegend">Very typical of me</span>
+						</div>
+					</fieldset>
+				</div>
+
+				<div data-role="fieldcontain" id="anxiety7_fieldcontain">
+					<fieldset data-role="controlgroup" data-type="horizontal"
+						class="likert1-5">
+						<legend>7. I am always worrying about something.</legend>
+						<input type="radio" name="anxiety7" id="anxiety17" value="1" /><label
+							for="anxiety17">1</label> <input type="radio" name="anxiety7"
+							id="anxiety27" value="2" /><label for="anxiety27">2</label> <input
+							type="radio" name="anxiety7" id="anxiety37" value="3" /><label
+							for="anxiety37">3</label> <input type="radio" name="anxiety7"
+							id="anxiety47" value="4" /><label for="anxiety47">4</label> <input
+							type="radio" name="anxiety7" id="anxiety57" value="5" /><label
+							for="anxiety57">5</label>
+						<div class="likert-scale-legend">
+							<span class="Llegend">Not at all typical of me</span> <span
+								class="Rlegend">Very typical of me</span>
+						</div>
+					</fieldset>
+				</div>
+
+				<div data-role="fieldcontain" id="anxiety8_fieldcontain">
+					<fieldset data-role="controlgroup" data-type="horizontal"
+						class="likert1-5">
+						<legend>8. I find it easy to dismiss worrisome thoughts.</legend>
+						<input type="radio" name="anxiety8" id="anxiety18" value="5" /><label
+							for="anxiety18">1</label> <input type="radio" name="anxiety8"
+							id="anxiety28" value="4" /><label for="anxiety28">2</label> <input
+							type="radio" name="anxiety8" id="anxiety38" value="3" /><label
+							for="anxiety38">3</label> <input type="radio" name="anxiety8"
+							id="anxiety48" value="2" /><label for="anxiety48">4</label> <input
+							type="radio" name="anxiety8" id="anxiety58" value="1" /><label
+							for="anxiety58">5</label>
+						<div class="likert-scale-legend">
+							<span class="Llegend">Not at all typical of me</span> <span
+								class="Rlegend">Very typical of me</span>
+						</div>
+					</fieldset>
+				</div>
+
+				<div data-role="fieldcontain" id="anxiety9_fieldcontain">
+					<fieldset data-role="controlgroup" data-type="horizontal"
+						class="likert1-5">
+						<legend>9. As soon as I finish one task, I start to worry
+							about everything else I have to do.</legend>
+						<input type="radio" name="anxiety9" id="anxiety19" value="1" /><label
+							for="anxiety19">1</label> <input type="radio" name="anxiety9"
+							id="anxiety29" value="2" /><label for="anxiety29">2</label> <input
+							type="radio" name="anxiety9" id="anxiety39" value="3" /><label
+							for="anxiety39">3</label> <input type="radio" name="anxiety9"
+							id="anxiety49" value="4" /><label for="anxiety49">4</label> <input
+							type="radio" name="anxiety9" id="anxiety59" value="5" /><label
+							for="anxiety59">5</label>
+						<div class="likert-scale-legend">
+							<span class="Llegend">Not at all typical of me</span> <span
+								class="Rlegend">Very typical of me</span>
+						</div>
+					</fieldset>
+				</div>
+
+				<div data-role="fieldcontain" id="anxiety10_fieldcontain">
+					<fieldset data-role="controlgroup" data-type="horizontal"
+						class="likert1-5">
+						<legend>10. I never worry about anything.</legend>
+						<input type="radio" name="anxiety10" id="anxiety110" value="5" /><label
+							for="anxiety110">1</label> <input type="radio" name="anxiety10"
+							id="anxiety210" value="4" /><label for="anxiety210">2</label> <input
+							type="radio" name="anxiety10" id="anxiety310" value="3" /><label
+							for="anxiety310">3</label> <input type="radio" name="anxiety10"
+							id="anxiety410" value="2" /><label for="anxiety410">4</label> <input
+							type="radio" name="anxiety10" id="anxiety510" value="1" /><label
+							for="anxiety510">5</label>
+						<div class="likert-scale-legend">
+							<span class="Llegend">Not at all typical of me</span> <span
+								class="Rlegend">Very typical of me</span>
+						</div>
+					</fieldset>
+				</div>
+
+				<div data-role="fieldcontain" id="anxiety11_fieldcontain">
+					<fieldset data-role="controlgroup" data-type="horizontal"
+						class="likert1-5">
+						<legend>11. When there is nothing more I can do about a
+							concern, I do not worry about it anymore.</legend>
+						<input type="radio" name="anxiety11" id="anxiety111" value="5" /><label
+							for="anxiety111">1</label> <input type="radio" name="anxiety11"
+							id="anxiety211" value="4" /><label for="anxiety211">2</label> <input
+							type="radio" name="anxiety11" id="anxiety311" value="3" /><label
+							for="anxiety311">3</label> <input type="radio" name="anxiety11"
+							id="anxiety411" value="2" /><label for="anxiety411">4</label> <input
+							type="radio" name="anxiety11" id="anxiety511" value="1" /><label
+							for="anxiety511">5</label>
+						<div class="likert-scale-legend">
+							<span class="Llegend">Not at all typical of me</span> <span
+								class="Rlegend">Very typical of me</span>
+						</div>
+					</fieldset>
+				</div>
+
+				<div data-role="fieldcontain" id="anxiety12_fieldcontain">
+					<fieldset data-role="controlgroup" data-type="horizontal"
+						class="likert1-5">
+						<legend>12. I have been a worrier all of my life.</legend>
+						<input type="radio" name="anxiety12" id="anxiety112" value="1" /><label
+							for="anxiety112">1</label> <input type="radio" name="anxiety12"
+							id="anxiety212" value="2" /><label for="anxiety212">2</label> <input
+							type="radio" name="anxiety12" id="anxiety312" value="3" /><label
+							for="anxiety312">3</label> <input type="radio" name="anxiety12"
+							id="anxiety412" value="4" /><label for="anxiety412">4</label> <input
+							type="radio" name="anxiety12" id="anxiety512" value="5" /><label
+							for="anxiety512">5</label>
+						<div class="likert-scale-legend">
+							<span class="Llegend">Not at all typical of me</span> <span
+								class="Rlegend">Very typical of me</span>
+						</div>
+					</fieldset>
+				</div>
+
+				<div data-role="fieldcontain" id="anxiety13_fieldcontain">
+					<fieldset data-role="controlgroup" data-type="horizontal"
+						class="likert1-5">
+						<legend>13. I notice that I have been worrying about
+							things.</legend>
+						<input type="radio" name="anxiety13" id="anxiety113" value="1" /><label
+							for="anxiety113">1</label> <input type="radio" name="anxiety13"
+							id="anxiety213" value="2" /><label for="anxiety213">2</label> <input
+							type="radio" name="anxiety13" id="anxiety313" value="3" /><label
+							for="anxiety313">3</label> <input type="radio" name="anxiety13"
+							id="anxiety413" value="4" /><label for="anxiety413">4</label> <input
+							type="radio" name="anxiety13" id="anxiety513" value="5" /><label
+							for="anxiety513">5</label>
+						<div class="likert-scale-legend">
+							<span class="Llegend">Not at all typical of me</span> <span
+								class="Rlegend">Very typical of me</span>
+						</div>
+					</fieldset>
+				</div>
+
+				<div data-role="fieldcontain" id="anxiety14_fieldcontain">
+					<fieldset data-role="controlgroup" data-type="horizontal"
+						class="likert1-5">
+						<legend>14. Once I start worrying, I cannot stop.</legend>
+						<input type="radio" name="anxiety14" id="anxiety114" value="1" /><label
+							for="anxiety114">1</label> <input type="radio" name="anxiety14"
+							id="anxiety214" value="2" /><label for="anxiety214">2</label> <input
+							type="radio" name="anxiety14" id="anxiety314" value="3" /><label
+							for="anxiety314">3</label> <input type="radio" name="anxiety14"
+							id="anxiety414" value="4" /><label for="anxiety414">4</label> <input
+							type="radio" name="anxiety14" id="anxiety514" value="5" /><label
+							for="anxiety514">5</label>
+						<div class="likert-scale-legend">
+							<span class="Llegend">Not at all typical of me</span> <span
+								class="Rlegend">Very typical of me</span>
+						</div>
+					</fieldset>
+				</div>
+
+				<div data-role="fieldcontain" id="anxiety15_fieldcontain">
+					<fieldset data-role="controlgroup" data-type="horizontal"
+						class="likert1-5">
+						<legend>15. I worry all the time.</legend>
+						<input type="radio" name="anxiety15" id="anxiety115" value="1" /><label
+							for="anxiety115">1</label> <input type="radio" name="anxiety15"
+							id="anxiety215" value="2" /><label for="anxiety215">2</label> <input
+							type="radio" name="anxiety15" id="anxiety315" value="3" /><label
+							for="anxiety315">3</label> <input type="radio" name="anxiety15"
+							id="anxiety415" value="4" /><label for="anxiety415">4</label> <input
+							type="radio" name="anxiety15" id="anxiety515" value="5" /><label
+							for="anxiety515">5</label>
+						<div class="likert-scale-legend">
+							<span class="Llegend">Not at all typical of me</span> <span
+								class="Rlegend">Very typical of me</span>
+						</div>
+					</fieldset>
+				</div>
+
+				<div data-role="fieldcontain" id="anxiety16_fieldcontain">
+					<fieldset data-role="controlgroup" data-type="horizontal"
+						class="likert1-5">
+						<legend>16. I worry about projects until they are all
+							done.</legend>
+						<input type="radio" name="anxiety16" id="anxiety116" value="1" /><label
+							for="anxiety116">1</label> <input type="radio" name="anxiety16"
+							id="anxiety216" value="2" /><label for="anxiety216">2</label> <input
+							type="radio" name="anxiety16" id="anxiety316" value="3" /><label
+							for="anxiety316">3</label> <input type="radio" name="anxiety16"
+							id="anxiety416" value="4" /><label for="anxiety416">4</label> <input
+							type="radio" name="anxiety16" id="anxiety516" value="5" /><label
+							for="anxiety516">5</label>
+						<div class="likert-scale-legend">
+							<span class="Llegend">Not at all typical of me</span> <span
+								class="Rlegend">Very typical of me</span>
+						</div>
+					</fieldset>
+				</div>
+
+				<button id="anxiety_assessment-submit" data-role="button"
+					data-theme="z">Submit</button>
+			</form>
+		</div>
+	</div>
+</body>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+	<div data-role="page" class="tool add-footer" id="time-out-page"
+		data-theme="z">
+		<script src="../../jquery/jquery.timers-1.2.js"></script>
+		<script src="script.js"></script>
+		<div data-role="header">
+			<img src="../../images/foursquare_tools.png" />
+			<h1>&nbsp;</h1>
+		</div>
+		<div data-role="content">
+			<h1>Time Out</h1>
+			<div data-role="collapsible" data-theme="a" data-content-theme="a">
+				<h3>Description</h3>
+				<p>This is a great tool when you just need a &quot;break&quot;
+					from life's problems. It combines a relaxing breathing exercise
+					with helpful tips to change your perspective.</p>
+			</div>
+			<div id="message-group">
+				<div id="message" class="interactive-instruct">Sometimes the
+					most helpful thing is to take a &quot;time out.&quot; This is
+					helpful if your emotions are getting out of control, and especially
+					helpful if your emotions might lead you to harm yourself or other
+					people. The goal is avoid making a hard situation worse, and avoid
+					doing something you'll later regret. Take a &quot;time out&quot;
+					now by pressing the start button.</div>
+			</div>
+			<a data-role="button" class="interactive-rotate-button"
+				data-theme="z">Start</a>
+			<div id="timer-group" style="display: none">
+				Start a timer:
+				<div data-role="controlgroup" data-type="horizontal">
+					<button id="timer-1" class="reset-timer" data-theme="z">1
+						min</button>
+					<button id="timer-5" class="reset-timer" data-theme="z">5
+						min</button>
+					<button id="timer-10" class="reset-timer" data-theme="z">10
+						min</button>
+					<button id="timer-30" class="reset-timer" data-theme="z">30
+						min</button>
+				</div>
+				<div class="clock">&nbsp;</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,182 @@
+/* Z, a customization of A
+-----------------------------------------------------------------------------------------------------------
+#333333 : background (grey)
+#96fc12 : list/controls text (green)
+#5a5858 : separator (l.grey)
+
+*/
+
+/*hiding native button,inputs */
+.ui-btn-hidden {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	-webkit-appearance: button;
+	opacity: .1;
+	cursor: pointer;
+	font-size: 1px;
+	border: none;
+	line-height: 999px;
+}
+
+a {
+	color: #96FC12;
+}
+
+.ui-bar-z {
+	border: 1px solid #2A2A2A;
+	background: #111111;
+	color: #ffffff;
+	font-weight: bold;
+	text-shadow: 0 -1px 1px #000000;
+	/* 	background-image: -webkit-gradient(linear, left top, left bottom, from(#3c3c3c), to(#111)); Saf4+, Chrome
+	background-image: -webkit-linear-gradient(top, #3c3c3c, #111); Chrome 10+, Saf5.1+
+	background-image:    -moz-linear-gradient(top, #3c3c3c, #111); FF3.6
+	background-image:     -ms-linear-gradient(top, #3c3c3c, #111); IE10
+	background-image:      -o-linear-gradient(top, #3c3c3c, #111); Opera 11.10+
+	background-image:         linear-gradient(top, #3c3c3c, #111); */
+}
+
+.ui-bar-z,.ui-bar-z input,.ui-bar-z select,.ui-bar-z textarea,.ui-bar-z button
+	{
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.ui-bar-z .ui-link-inherit {
+	color: #fff;
+}
+
+.ui-bar-z .ui-link { /* color: 					#7cc4e7; */
+	font-weight: bold;
+}
+
+.ui-body-z { /* border: 1px solid 		#2A2A2A; */
+	background: #222222;
+	color: #fff;
+	text-shadow: 0 1px 0 #000;
+	font-weight: normal;
+	/* 	background-image: -webkit-gradient(linear, left top, left bottom, from(#666), to(#222)); Saf4+, Chrome
+	background-image: -webkit-linear-gradient(top, #666, #222); Chrome 10+, Saf5.1+
+	background-image:    -moz-linear-gradient(top, #666, #222); FF3.6
+	background-image:     -ms-linear-gradient(top, #666, #222); IE10
+	background-image:      -o-linear-gradient(top, #666, #222); Opera 11.10+
+	background-image:         linear-gradient(top, #666, #222);	 */
+}
+
+.ui-body-z,.ui-body-z input,.ui-body-z select,.ui-body-z textarea,.ui-body-z button
+	{
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.ui-body-z .ui-link-inherit {
+	color: #fff;
+}
+
+.ui-body-z .ui-link { /* 	color: 					#2489CE; */
+	font-weight: bold;
+}
+
+.ui-br {
+	border-bottom: rgb(130, 130, 130);
+	border-bottom: rgba(130, 130, 130, .3);
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+.ui-btn-up-z {
+	border: 1px solid #222;
+	background: #444444;
+	border-bottom: 1px solid #5a5858; /* ADDED  */
+	font-weight: bold;
+	color: #fff;
+	text-shadow: 0 -1px 1px #000;
+	/* background-image: -webkit-gradient(linear, left top, left bottom, from(#555), to(#333)); Saf4+, Chrome
+	background-image: -webkit-linear-gradient(top, #555, #333); Chrome 10+, Saf5.1+
+	background-image:    -moz-linear-gradient(top, #555, #333); FF3.6
+	background-image:     -ms-linear-gradient(top, #555, #333); IE10
+	background-image:      -o-linear-gradient(top, #555, #333); Opera 11.10+
+	background-image:         linear-gradient(top, #555, #333); */
+}
+
+.ui-btn-up-z a.ui-link-inherit {
+	color: #fff;
+}
+
+.ui-btn-hover-z {
+	border: 1px solid #222;
+	background: #444444;
+	border-bottom: 1px solid #5a5858; /* ADDED  */
+	/* 	border: 1px solid 		#000;
+	background: 			#444444;*/
+	font-weight: bold;
+	color: #fff;
+	text-shadow: 0 -1px 1px #000;
+	/* background-image: -webkit-gradient(linear, left top, left bottom, from(#666), to(#444)); Saf4+, Chrome
+	background-image: -webkit-linear-gradient(top, #666, #444); Chrome 10+, Saf5.1+
+	background-image:    -moz-linear-gradient(top, #666, #444); FF3.6
+	background-image:     -ms-linear-gradient(top, #666, #444); IE10
+	background-image:      -o-linear-gradient(top, #666, #444); Opera 11.10+
+	background-image:         linear-gradient(top, #666, #444); */
+	*/
+}
+
+.ui-btn-hover-z a.ui-link-inherit {
+	color: #fff;
+}
+
+.ui-btn-down-z {
+	border: 1px solid #222;
+	background: #555555;
+	border-bottom: 1px solid #5a5858; /* ADDED  */
+	/* 	border: 1px solid 		#000;
+	background: 			#3d3d3d; */
+	font-weight: bold;
+	color: #fff;
+	text-shadow: 0 -1px 1px #000;
+	/* background-image: -webkit-gradient(linear, left top, left bottom, from(#333), to(#5a5a5a)); Saf4+, Chrome
+	background-image: -webkit-linear-gradient(top, #333, #5a5a5a); Chrome 10+, Saf5.1+
+	background-image:    -moz-linear-gradient(top, #333, #5a5a5a); FF3.6
+	background-image:     -ms-linear-gradient(top, #333, #5a5a5a); IE10
+	background-image:      -o-linear-gradient(top, #333, #5a5a5a); Opera 11.10+
+	background-image:         linear-gradient(top, #333, #5a5a5a); */
+}
+
+.ui-btn-down-z a.ui-link-inherit {
+	color: #fff;
+}
+
+.ui-btn-up-z,.ui-btn-hover-z,.ui-btn-down-z {
+	font-family: Helvetica, Arial, sans-serif;
+	text-decoration: none;
+}
+
+/* ADDED TO DEFAULT THEME */
+li.ui-btn-up-z {
+	border-bottom: 1px solid #5a5858;
+	background: #333333;
+}
+
+/* not sure why, but somehow selected radio buttons weren't displaying.   */
+label.ui-btn-active {
+	background-color: #808080;
+}
+
+/* this eliminates an extra top border that makes things uuuugly. */
+div[data-theme="z"] li.ui-btn-inner {
+	border-top: none;
+}
+
+/* narrow the line between list items  */
+/* 1px solid creates etch effect if lighter than bottom border.  set this to none to create pencil-thin line */
+.ui-btn-inner { /* border-top: 1px solid 888888; */
+	border-top: none;
+}
+
+/* overrides text color and styling on list controls */
+.ui-li-heading {
+	text-shadow: #000000 0px 0px 2px;
+	color: #96fc12;
+	font-weight: normal;
+	font-size: 120%; /* Was font-size: large */
+}

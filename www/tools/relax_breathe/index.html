@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Relax/Breathe</title>
+</head>
+<body>
+	<div data-role="page" class="tool add-footer" id="breathe_intervention"
+		data-theme="z">
+		<link href="breathe.css" type="text/css" rel="stylesheet" />
+		<link href="breathe_animation.css" type="text/css" rel="stylesheet" />
+		<script src="../../jquery/jquery.timers-1.2.js"></script>
+
+		<script src="breathe.js"></script>
+		<script src="mediawrapper.js" type="text/javascript"></script>
+
+		<div data-role="header">
+			<img src="../../images/foursquare_tools.png" />
+			<h1>Relax/Breathe</h1>
+		</div>
+		<div data-role="content">
+			<div data-role="collapsible" data-theme="a" data-content-theme="a">
+				<h3>Description</h3>
+				<p>Proper breathing reduces tension, anxiety, and stress. This
+					tool will teach you a breathing technique to help relax.</p>
+			</div>
+		</div>
+		<div data-role="content" id="breather_wrap">
+			<img id="orb_green" class="orb inhale"
+				src="images/glass_green_trim.png" /> <img id="orb_yellow_full"
+				class="orb hold full" src="images/glass_yellow_trim.png" /> <img
+				id="orb_red" class="orb exhale" src="images/glass_red_trim.png" /> <img
+				id="orb_yellow_empty" class="orb hold empty"
+				src="images/glass_yellow_trim.png" />
+			<div id="counter" class="orbtext counter">&nbsp;</div>
+			<div id="instruction" class="orbtext instruct">&nbsp;</div>
+		</div>
+		<div data-role="content">
+			<a href="" id="breatheButton" data-role="button">Start</a>
+		</div>
+	</div>
+</body>
+</html>

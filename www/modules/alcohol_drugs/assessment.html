@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+	<div data-role="page" class="assessment add-footer" id="assessment"
+		data-theme="z">
+		<script type="text/javascript" src="assessment.js"></script>
+		<script type="text/javascript" src="../validation.js"></script>
+		<div data-role="header">
+			<img src="module.png" />
+			<h1>Alcohol &amp; Drugs : Assessment</h1>
+		</div>
+		<div data-role="content">
+			<form id="anger-assess-form">
+				<div>1. In your lifetime, which of the following substances
+					have you ever used? (NON-MEDICAL USE ONLY)</div>
+				<div data-role="fieldcontain" id="1a_fieldcontain">
+					<fieldset data-role="controlgroup" data-type="horizontal"
+						class="likert1-5_alcohol">
+						<legend>a. Alcohol (beer, wine, spirits, etc.)</legend>
+						<input type="radio" name="1a" id="alcohol_drugs10a" value="1" /><label
+							for="alcohol_drugs10a">Yes</label> <input type="radio" name="1a"
+							id="alcohol_drugs11a" value="0" /><label for="alcohol_drugs11a">No</label>
+					</fieldset>
+					<fieldset data-role="controlgroup" data-type="horizontal"
+						class="likert1-5_alcohol">
+						<legend>b. Cannabis (marijuana, pot, grass, hash, etc.)</legend>
+						<input type="radio" name="1b" id="alcohol_drugs10b" value="1" /><label
+							for="alcohol_drugs10b">Yes</label> <input type="radio" name="1b"
+							id="alcohol_drugs11b" value="0" /><label for="alcohol_drugs11b">No</label>
+					</fieldset>
+					<fieldset data-role="controlgroup" data-type="horizontal"
+						class="likert1-5_alcohol">
+						<legend>c. Cocaine (coke, crack, etc.)</legend>
+						<input type="radio" name="1c" id="alcohol_drugs10c" value="1" /><label
+							for="alcohol_drugs10c">Yes</label> <input type="radio" name="1c"
+							id="alcohol_drugs11c" value="0" /><label for="alcohol_drugs11c">No</label>
+					</fieldset>
+					<fieldset data-role="controlgroup" data-type="horizontal"
+						class="likert1-5_alcohol">
+						<legend>d. Amphetamine type stimulants (speed, diet
+							pills, ecstasy, etc.)</legend>
+						<input type="radio" name="1d" id="alcohol_drugs10d" value="1" /><label
+							for="alcohol_drugs10d">Yes</label> <input type="radio" name="1d"
+							id="alcohol_drugs11d" value="0" /><label for="alcohol_drugs11d">No</label>
+					</fieldset>
+					<fieldset data-role="controlgroup" data-type="horizontal"
+						class="likert1-5_alcohol">
+						<legend>e. Sedatives or sleeping pills (Valium, Serapax,
+							Rohypnol, Ambien, etc.)</legend>
+						<input type="radio" name="1e" id="alcohol_drugs10e" value="1" /><label
+							for="alcohol_drugs10e">Yes</label> <input type="radio" name="1e"
+							id="alcohol_drugs11e" value="0" /><label for="alcohol_drugs11e">No</label>
+					</fieldset>
+					<fieldset data-role="controlgroup" data-type="horizontal"
+						class="likert1-5_alcohol">
+						<legend>f. Other drug use (inhalants, hallucinogens,
+							opiods, etc.)</legend>
+						<input type="radio" name="1f" id="alcohol_drugs10f" value="1" /><label
+							for="alcohol_drugs10f">Yes</label> <input type="radio" name="1f"
+							id="alcohol_drugs11f" value="0" /><label for="alcohol_drugs11f">No</label>
+					</fieldset>
+				</div>
+				<div id="2_legend">2. In the past three months, how often have
+					you used each of the following substances? (NON-MEDICAL USE ONLY)</div>
+				<!--
+	  				
+	  				
+	  				
+	  				-->
+				<button id="alcohol_drugs-assessment-submit" data-role="button"
+					data-theme="z">Submit</button>
+			</form>
+		</div>
+	</div>
+</body>

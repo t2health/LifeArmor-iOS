@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+	<div data-role="page" class="add-footer" id="videos" data-theme="z">
+		<div data-role="header">
+			<img src="module.png" />
+			<h1>Military Sexual Trauma : Videos</h1>
+		</div>
+		<div data-role="content">
+			<script src="../../js/bc-mapi.js" type="text/javascript"></script>
+			<script src="../../js/videos.js" type="text/javascript"></script>
+			<script type="text/javascript">
+					$('#videos').bind("pageshow", function(event) {
+						displayPlaylist( 1054629571001 );
+					});
+				</script>
+
+			<ul data-role="listview" id="video-list" data-theme="z">
+			</ul>
+
+		</div>
+	</div>
+	<!-- /main page -->
+</body>
+</html>
